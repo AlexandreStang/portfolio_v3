@@ -1,0 +1,26 @@
+//// SECTION STYLES
+
+section {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: $vw-small-desktop) {
+   
+    section h2 {
+       margin-bottom: 20px;
+    }
+     
+   }
+
+@media screen and (max-width: $vw-vertical-tablet) {
+    section {
+        height: auto;
+    }
+}

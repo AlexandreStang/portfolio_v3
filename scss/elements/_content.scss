@@ -1,0 +1,97 @@
+//// CONTENT STYLES
+
+.landing-page .content {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: $light-grey;
+
+    width: $w-col3;
+
+    margin-left: $w-col1;
+    padding: 0 60px;
+
+    position: relative;
+}
+
+.content::after {
+    content: "";
+
+    position: absolute;
+
+    width: 60px;
+    height: 100%;
+    background: $light-grey;
+    opacity: 60%;
+
+    right: -70px;
+    top: 0;
+
+    z-index: 0;
+}
+
+.content::before {
+    content: "";
+
+    position: absolute;
+
+    width: 20px;
+    height: 100%;
+    background: $light-grey;
+    opacity: 30%;
+
+    right: -100px;
+    top: 0;
+
+    z-index: 0;
+}
+
+@media screen and (max-width: $vw-horizontal-tablet) {
+    .content {
+        margin-left: 0;
+        width: $w-col4;
+    }
+
+    .content::after {
+        width: 40px;
+        right: -50px;
+    }
+
+    .content::before {
+        width: 15px;
+        right: -75px;
+    }
+}
+
+@media screen and (max-width: $vw-small-desktop) {
+    .content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: $vw-vertical-tablet) {
+    .landing .content {
+        padding-bottom: 60px;
+    }
+    
+    .content {
+        margin-left: 0;
+        width: $w-col6;
+
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: $vw-mobile) {
+    .content {
+        margin-left: 0;
+        width: $w-col7;
+
+        padding-left: $mobile-padding-side;
+        padding-right: $mobile-padding-side;
+    }
+}

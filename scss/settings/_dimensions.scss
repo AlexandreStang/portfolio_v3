@@ -1,0 +1,31 @@
+// HEIGHT & WIDTH VARIABLES
+
+///// Dimension
+$max-width: 1080px;
+//$page-padding: 60px;
+$mobile-padding-side-special: 30px;
+$mobile-padding-side: 10px;
+
+///// Viewports sizes
+/// Dimension pour les media query
+
+$vw-mobile: 480px;
+$vw-vertical-tablet: 768px;
+$vw-horizontal-tablet: 1024px;
+$vw-small-desktop: 1440px;
+$vw-large: $max-width;
+
+///// 
+$w-col1: 12.5vw;
+$w-col2: 25vw;
+$w-col3: 37.5vw;
+$w-col4: 50vw;
+$w-col5: 62.5vw;
+$w-col6: 75vw;
+$w-col7: 87.5vw;
+$w-col8: 100vw;
+
+$w-col1-5: 18.75vw;
+$w-col2-5: 31.25vw;
+
+

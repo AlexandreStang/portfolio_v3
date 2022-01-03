@@ -1,0 +1,28 @@
+//// WRAPPER STYLES
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+  }
+  
+  .col-1 { width: 12.5%; }
+  .col-2 { width: 25%; }
+  .col-3 { width: 37.5%; }
+  .col-4 { width: 50%; }
+  .col-5 { width: 62.5%; }
+  .col-6 { width: 75%; }
+  .col-7 { width: 87.5%; }
+  .col-8 { width: 100%; }
+
+  .col-offset-1 { margin-left: 12.5%; }
+  .col-offset-2 { margin-left: 25%; }
+  .col-offset-3 { margin-left: 37.5%; }
+  .col-offset-4 { margin-left: 50%; }
+  .col-offset-5 { margin-left: 62.5%; }
+  .col-offset-6 { margin-left: 75%; }
+  .col-offset-7 { margin-left: 87.5%; }
+  .col-offset-8 { margin-left: 100%; }
+  
+  

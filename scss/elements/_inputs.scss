@@ -1,0 +1,35 @@
+//// INPUT STYLES
+
+input, textarea {
+    background-color: $dark-grey;
+    border: 1px solid $dark-grey;
+
+    color: $white;
+
+    padding: 1rem;
+
+    width: 100%;
+
+    resize: none;
+
+    overflow: 0;
+}
+
+input::placeholder, textarea::placeholder {
+    color: $white;
+    opacity: 0.25;
+
+    font-style: italic;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+
+    border-color: $yellow;
+    transition: $global-transition;
+}
+
+.input-div {
+    width: 100%;
+    display: inline;
+}

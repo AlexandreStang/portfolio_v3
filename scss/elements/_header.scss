@@ -1,0 +1,130 @@
+//// NAVIGATION STYLES
+
+header {
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: $dark-grey;
+    border-bottom: 1px solid $light-grey;
+
+    position: fixed;
+    z-index: 999;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: $w-col1;
+        margin-right: $w-col1;
+    }
+}
+
+.logo {
+    font-family: $ff-title;
+    font-weight: $fw-bold;
+    font-size: 3.5rem;
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $yellow;
+    }
+}
+
+.nav-menu {
+    font-size: $fs-subtitle;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        margin-left: 60px;
+    }
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-icon {
+    font-size: $fs-subtitle;
+}
+
+// MOBILE OVERLAY
+
+.nav-overlay {
+    position: fixed;
+
+    z-index: 999;
+
+    background-color: $dark-grey;
+
+    width: 100vw;
+    height: 100vh;
+
+    nav {
+        position: fixed;
+        width: 100%;
+
+        padding: 0 $w-col1;
+        text-align: end;
+
+        li {
+            margin-top: 20px;
+        }
+    }
+
+    .nav-header {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+}
+
+#nav-overlay {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#nav-about, #nav-portfolio, #nav-contact {
+    opacity: 0;
+}
+
+@media screen and (max-width: $vw-vertical-tablet) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: initial;
+
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: $vw-mobile) {
+    header .wrapper {
+        margin-left: $mobile-padding-side-special;
+        margin-right: $mobile-padding-side-special;
+    }
+
+    .nav-overlay nav {
+        padding-left: $mobile-padding-side-special;
+        padding-right: $mobile-padding-side-special;
+    }
+}

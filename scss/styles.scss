@@ -1,0 +1,36 @@
+
+// GENERIC
+@import "generic/_reset";
+@import "generic/_normalize";
+
+// TOOLS
+@import "tools/_fonctions";
+
+// SETTINGS
+@import "settings/_global";
+@import "settings/_dimensions";
+@import "settings/_fonts";
+@import "settings/_colors";
+
+// ELEMENTS
+@import "elements/_arrows";
+@import "elements/_body";
+@import "elements/_headings";
+@import "elements/_links";
+@import "elements/_inputs";
+@import "elements/_content";
+@import "elements/_wrapper";
+@import "elements/_header";
+@import "elements/_sections";
+@import "elements/_icons";
+@import "elements/_paragraphs";
+
+// SECTIONS
+@import "sections/_hero";
+@import "sections/_about";
+@import "sections/_portfolio";
+@import "sections/_contact";
+@import "sections/_project";
+
+// ANIMATIONS
+@import "animations/_data-aos";

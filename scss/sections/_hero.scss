@@ -1,0 +1,92 @@
+.hero {
+    .content {
+        height: 100vh;
+    }
+}
+
+.banner {
+    background-color: $yellow;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    position: absolute;
+    left: 0;
+
+    z-index: 1;
+
+    width: $w-col6;
+}
+
+.first-name {
+    display: inline-block;
+
+    margin-left: $w-col1;
+    margin-right: 100%;
+
+    height: 50px;
+}
+
+.last-name {
+    display: inline-block;
+
+    margin-left: $w-col2;
+    margin-right: 100%;
+}
+
+.roles {
+    color: $dark-grey;
+
+    display: inline-block;
+
+    margin-left: $w-col1-5;
+
+    h3 {
+        position: relative;
+    }
+
+    h3:before {
+        position: absolute;
+
+        content: "";
+
+        width: 2px;
+        height: 100%;
+        background: $dark-grey;
+
+        left: -20px;
+    }
+}
+
+@media screen and (max-width: $vw-small-desktop) {
+    .banner {
+        width: $w-col8;
+    }
+}
+
+@media screen and (max-width: $vw-vertical-tablet) {
+   
+    .first-name h1, .last-name h1 {
+        font-size: $fs-title-2;
+    }
+
+    .last-name {
+        margin-left: $w-col3;
+    }
+
+    .roles h3 {
+        font-size: $fs-subtitle;
+    }
+}
+
+@media screen and (max-width: $vw-mobile) {
+   
+    .first-name {
+        margin-left: $mobile-padding-side;
+    }
+
+    .roles {
+        margin-left: $mobile-padding-side-special;
+    }
+}
+

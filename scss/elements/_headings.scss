@@ -1,0 +1,40 @@
+//// HEADING STYLES
+
+h1, h2, h4  {
+  font-family: $ff-title;
+  font-weight: $fw-bold;
+
+  margin: 0;
+}
+
+h1 {
+  font-size: $fs-title-1;
+}
+
+h2 {
+  font-size: $fs-title-2;
+}
+
+h3 {
+  font-family: $ff-text;
+  font-size: $fs-title-3;
+  font-weight: $fw-regular;
+
+  letter-spacing: 5px;
+
+  margin: 0;
+}
+
+h4 {
+  font-size: $fs-title-4;
+}
+
+@media screen and (max-width: $vw-horizontal-tablet) {
+   
+ h2 {
+    font-size: $fs-project-title;
+ }
+  
+}
+
+

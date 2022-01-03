@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-description,
+.social-networks {
+    margin-bottom: 40px;
+}
+
+.social-networks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin-bottom: 15px;
+
+        display: flex;
+        align-items: center;
+    }
+}
+
+.profile-picture {
+    position: absolute;
+
+    left: $w-col5;
+
+    margin-top: 70px;
+
+    img {
+        width: $w-col2;
+    }
+}
+
+@media screen and (max-width: $vw-small-desktop) {
+    .profile-picture {
+        position: absolute;
+
+        left: $w-col5;
+
+        img {
+            width: $w-col3;
+        }
+    }
+}
+
+@media screen and (max-width: $vw-vertical-tablet) {
+    .profile-picture {
+        display: none;
+    }
+}
