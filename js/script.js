@@ -4,10 +4,9 @@ AOS.init({
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  
   var currentLocation = window.location.href.split("#")[0];
 
-  // OPENING AND CLOSING THE OVERLAY NAVIGATION MENU ANIMATIONS
+  // ANIMATIONS FOR OPENING AND CLOSING THE OVERLAY NAVIGATION MENU 
 
   function openMenu() {
     TweenMax.to(document.getElementById("nav-overlay"), 0.25, {
@@ -31,19 +30,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
   }
 
+// SMOOTH ANCHOR ANIMATION, PROVIDED BY JOSEPH SILBER
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+  });
+
+
   // CLOSE OR OPEN MENU WHEN CLICKING ON A BUTTON IN THE OVERLAY
 
-  document.getElementById("nav-about").addEventListener("click", function (e) {
-    closeMenu()
-  });
-
-  document.getElementById("nav-portfolio").addEventListener("click", function (e) {
-    closeMenu()
-  });
-
-  document.getElementById("nav-contact").addEventListener("click", function (e) {
-    closeMenu()
-  });
+  document.querySelectorAll('a').forEach(button => {
+    button.addEventListener("click", function (e) {
+      closeMenu()
+    });
+  })
 
   document.getElementById("open-menu").addEventListener("click", function (e) {
     openMenu()
@@ -57,24 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.addEventListener("resize", function (event) {
     closeMenu();
-  });
-
-  // CLICK ON THE ARROWS
-
-  document.getElementById("arrow-to-about").addEventListener("click", function (e) {
-    window.location.replace("index.html#about");
-  });
-
-  document.getElementById("arrow-to-portfolio").addEventListener("click", function (e) {
-    window.location.replace("index.html#portfolio");
-  });
-
-  document.getElementById("arrow-to-contact").addEventListener("click", function (e) {
-    window.location.replace("index.html#contact");
-  });
-
-  document.getElementById("arrow-to-hero").addEventListener("click", function (e) {
-    window.location.replace("index.html#hero");
   });
 
 });
