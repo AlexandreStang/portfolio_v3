@@ -51,6 +51,12 @@ body {
 }
 
 @media screen and (max-width: $vw-vertical-tablet) {
+  html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+  }
+
+
   .background-lines {
     display: none;
   }
@@ -64,5 +70,14 @@ body {
 .landing-page {
   overflow-y: hidden;
 }
+
+
+
+
+
+
+
+
+
 
 //DONE

@@ -551,6 +551,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+  }
   .background-lines {
     display: none;
   }
