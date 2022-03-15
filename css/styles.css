@@ -661,6 +661,8 @@ a.btn:hover, button:hover {
   background-color: #E09F3E;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 a:focus, button:focus {
@@ -1412,6 +1414,18 @@ p {
     border-left: 0;
     border-right: 0;
   }
+}
+
+[data-aos="body"] {
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+
+[data-aos="body"].aos-animate {
+  opacity: 1;
 }
 
 [data-aos="banner"] {
