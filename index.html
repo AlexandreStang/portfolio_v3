@@ -117,7 +117,8 @@
                 </div> -->
                 <div>
                     <h2 data-aos="content-text">portfolio</h2>
-                    <p data-aos="content-text">Au fil des années, j'ai réalisé de nombreux projets sous différents rôles, soit en tant que
+                    <p data-aos="content-text">Au fil des années, j'ai réalisé de nombreux projets sous différents
+                        rôles, soit en tant que
                         designer UI, intégrateur web et parfois même programmeur! Ainsi, voici un bref aperçu de mes
                         meilleurs travaux.
                     </p>
@@ -243,21 +244,22 @@
                 <!-- <div class="arrow-top">
                     <span><i class="fas fa-chevron-up"></i></span>
                 </div> -->
-                <div>
+                <form action="php/contact-form-process.php" method="post" id="contact-form">
                     <h2 data-aos="content-text">contact</h2>
-                    <div class="input-div"><input type="text" placeholder="Votre nom..." data-aos="content-text"></div>
-                    <div class="input-div"><input type="email" placeholder="Votre adresse courriel..."
-                            data-aos="content-text">
+                    <div class="input-div"><input type="text" name="visitor_name" placeholder="Votre nom..."
+                            data-aos="content-text" required></div>
+                    <div class="input-div"><input type="email" name="visitor_email" placeholder="Votre adresse courriel..."
+                            data-aos="content-text" required>
                     </div>
-                    <div class="input-div"><textarea rows="9" placeholder="Votre message..."
-                            data-aos="content-text"></textarea></div>
+                    <div class="input-div"><textarea rows="9" name="visitor_message" placeholder="Votre message..."
+                            data-aos="content-text" required></textarea></div>
                     <div data-aos="content-text">
-                        <a href="" class="btn">envoyer</a>
-                    </div>
-                </div>
-
+                    <button type="submit" name="submit" value="envoyer">envoyer</button>
+                </form>
             </div>
-        </section>
+
+    </div>
+    </section>
     </div>
 
     <div class="background-lines">
