@@ -1014,12 +1014,12 @@ section {
 }
 
 section h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1440px) {
   section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
 
@@ -1153,6 +1153,10 @@ p {
 }
 
 @media screen and (max-width: 1440px) {
+  .about-description,
+  .social-networks {
+    margin-bottom: 20px;
+  }
   .profile-picture {
     position: absolute;
     left: 62.5vw;
@@ -1380,6 +1384,7 @@ p {
 
 @media screen and (max-width: 1440px) {
   .project-introduction {
+    margin: 40px;
     padding: 0 20px;
   }
   .project-details img {
