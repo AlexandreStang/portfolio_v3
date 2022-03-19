@@ -1172,6 +1172,10 @@ p {
   }
 }
 
+.portfolio-description {
+  margin-bottom: 40px;
+}
+
 .project-list.desktop {
   position: absolute;
   width: 25vw;
