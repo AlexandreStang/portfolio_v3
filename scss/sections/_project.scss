@@ -56,12 +56,16 @@
     }
 
     img {
-        width: 100%;
+        width: 95%;
         max-width: 1200px;
         margin-bottom: 10px;
         vertical-align: top;
 
         //border: $dark-grey solid 4px;
+    }
+
+    img:last-of-type {
+        margin-bottom: 2.5%;
     }
     
 }
@@ -132,6 +136,10 @@
             border-right: 0;
         }
 
+    }
+
+    .project .content {
+        width: 100vw;;
     }
 }
 
