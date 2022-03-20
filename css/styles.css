@@ -1019,7 +1019,7 @@ section h2 {
 
 @media screen and (max-width: 1440px) {
   section h2 {
-    margin-bottom: 0;
+    margin: 16px 0;
   }
 }
 
