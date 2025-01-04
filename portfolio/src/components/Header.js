@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import SmoothScrollLink from "./SmoothScrollLink";
-import gsap from "gsap";
+import gsap from "gsap"; // npm install gsap
 
 export default function Header() {
 

@@ -5,165 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/SmoothScrollLink.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/about/profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/favicon/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/conventionWeb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/conventionWeb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/doodleWar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/doodleWar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/etherealEstate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/etherealEstate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/festin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/festin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/lebatifol.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/lebatifol.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/motionSpotlight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/motionSpotlight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/portfolio2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/portfolio2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/rafale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/rafale.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/randomovie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/randomovie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/timEdouard.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/portfolio/timEdouard.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/conventionWeb/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/conventionWeb/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/conventionWeb/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/conventionWeb/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/conventionWeb/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/conventionWeb/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/doodleWar/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/doodleWar/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/doodleWar/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/doodleWar/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/doodleWar/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/doodleWar/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/festin/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/festin/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/festin/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/festin/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/festin/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/festin/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/festin/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/festin/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/lebatifol/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/lebatifol/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/lebatifol/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/lebatifol/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/lebatifol/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/lebatifol/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/lebatifol/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/lebatifol/04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/06.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/motionSpotlight/07.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/motionSpotlight/07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/portfolio2/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/portfolio2/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/portfolio2/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/portfolio2/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/06.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/07.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/08.gif" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/08.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/09.gif" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/09.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/rafale/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/rafale/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/randomovie/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/randomovie/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/randomovie/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/randomovie/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/demo/async.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/demo/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/demo/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/dist/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/dist/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/helpers/calculateOffset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/helpers/detector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/helpers/elements.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/helpers/handleScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/helpers/prepare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/libs/observer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/js/libs/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/sass/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/sass/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/sass/_easing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/src/sass/aos.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/aos.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/calculateOffset.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/elements.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/fixtures/aos-offset.fixture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/fixtures/aos.fixture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aos/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/script/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/tests/qunit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/tests/remove.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/tests/runner.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/classlist-polyfill/tests/tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.debounce/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.debounce/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.debounce/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.debounce/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.throttle/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.throttle/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.throttle/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.throttle/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/stang_alexandre_cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pdf/stang_alexandre_cv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/conventionWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/doodleWar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/festin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/lebatifol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/motionSpotlight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/portfolio2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/projectTemplate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/rafale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/randomovie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/animations/_data-aos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/animations/_data-aos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_arrows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_arrows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_headings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_paragraphs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_paragraphs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/generic/.__reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/generic/.__reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/generic/._normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/generic/._normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/generic/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/generic/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/generic/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/generic/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/settings/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_dimensions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/settings/_dimensions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/settings/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/settings/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/tools/_fonctions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/tools/_fonctions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +81,7 @@
       <workItem from="1734985103611" duration="1662000" />
       <workItem from="1735322125008" duration="600000" />
       <workItem from="1735410649863" duration="716000" />
-      <workItem from="1735957180563" duration="10604000" />
+      <workItem from="1735957180563" duration="13156000" />
     </task>
     <servers />
   </component>

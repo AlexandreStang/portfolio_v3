@@ -1,25 +1,13 @@
 import React, {useEffect} from "react"
 import {graphql, Link} from 'gatsby'
-import AOS from "aos";
-import { TweenMax } from "gsap";
-import * as styles from '../css/styles.css'
-import SmoothScrollLink from "../components/SmoothScrollLink";
-import Header from "../components/Header";
 import Layout from "../components/Layout";
 
 
-export default function Home() {
-    document.body.setAttribute('id', 'body');
-    document.body.setAttribute('data-aos', 'body');
+export default function Home(data) {
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            AOS.init({
-                once: true,
-                duration: 1200
-            })
-        }
-    })
+    const siteMetadata = data.data.site.siteMetadata
+
+    console.log(siteMetadata)
 
     return (
         <Layout>
@@ -33,7 +21,7 @@ export default function Home() {
                     <h1>stang</h1>
                 </span>
                         <span className="roles" data-aos="content-text" data-aos-delay="1000">
-                    <h3>développeur front-end & designer UI/UX</h3>
+                    <h3>concepteur technique UI/UX</h3>
                 </span>
                     </div>
                     <div className="content">
@@ -49,15 +37,11 @@ export default function Home() {
                         <div>
                             <h2 data-aos="content-text">à propos</h2>
                             <div className="about-description" data-aos="content-text">
-                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel, ancien élève du
-                                    programme de technique d'intégration multimédia au Cégep Montpetit et du DEC-BAC en
-                                    création
-                                    de jeux vidéo à l'UQAT! Je suis présentement aux
-                                    études à l'UDEM en programme d'informatique afin d'approfondir mes connaissances en
-                                    programmation!</p>
+                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel diplomé du
+                                    programme de technique d'intégration multimédia au Cégep Montpetit, du DEC-BAC en
+                                    création de jeux vidéo à l'UQAT et du programme d'informatique à l'UDEM!</p>
                                 <p>Non seulement je m'y connais en design d'interface (Photoshop, Illustrator et Figma),
-                                    mais je
-                                    peux les transformer en sites web fonctionnels grâce à mes
+                                    mais je peux les transformer en sites web fonctionnels grâce à mes
                                     connaissances en HTML5, CSS3 et
                                     Javascript!</p>
                                 <p>Je suis à la fois une personne perfectionniste et travailleuse, toujours déterminée à
@@ -65,11 +49,10 @@ export default function Home() {
                             </div>
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
-                                    <li><span className="inline-icon"><i className="fas fa-at"></i></span>alexandre.stang.web@gmail.com
+                                    <li><span className="inline-icon"><i className="fas fa-at"></i></span>{siteMetadata.contact.email}
                                     </li>
-                                    <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span><Link
-                                        to="https://www.linkedin.com/in/Linklexandre-stang-163208a7/"
-                                        className="text-link">/alexandrestang</Link></li>
+                                    <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span>
+                                        <a href={siteMetadata.contact.linkedIn} className="text-link">/alexandrestang</a></li>
                                 </ul>
                             </div>
 
@@ -105,9 +88,9 @@ export default function Home() {
                             </div>
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
-                                    <li><span className="inline-icon"><i className="fab fa-behance"></i></span><Link
-                                        to="https://www.behance.net/Linklexandrestang"
-                                        className="text-link">/alexandrestang</Link>
+                                    <li><span className="inline-icon"><i className="fab fa-behance"></i></span><a
+                                        href={siteMetadata.contact.behance}
+                                        className="text-link">/alexandrestang</a>
                                     </li>
                                 </ul>
                             </div>
@@ -269,3 +252,17 @@ export default function Home() {
         </Layout>
     )
 }
+
+export const query = graphql`
+query MyQuery {
+  site {
+    siteMetadata {
+      contact {
+        behance
+        email
+        linkedIn
+      }
+    }
+  }
+}
+`
