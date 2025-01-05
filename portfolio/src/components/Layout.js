@@ -20,7 +20,18 @@ export default function Layout({ children }) {
     return (
         <div className="layout">
             <Header></Header>
-            { children }
+            {children}
+            <div className="background-lines">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
     )
 }

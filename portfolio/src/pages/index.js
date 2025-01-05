@@ -1,13 +1,12 @@
 import React, {useEffect} from "react"
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/Layout";
-
+import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
 export default function Home(data) {
 
+    console.log(data)
     const siteMetadata = data.data.site.siteMetadata
-
-    console.log(siteMetadata)
 
     return (
         <Layout>
@@ -49,10 +48,12 @@ export default function Home(data) {
                             </div>
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
-                                    <li><span className="inline-icon"><i className="fas fa-at"></i></span>{siteMetadata.contact.email}
+                                    <li><span className="inline-icon"><i
+                                        className="fas fa-at"></i></span>{siteMetadata.contact.email}
                                     </li>
                                     <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span>
-                                        <a href={siteMetadata.contact.linkedIn} className="text-link">/alexandrestang</a></li>
+                                        <a href={siteMetadata.contact.linkedIn}
+                                           className="text-link">/alexandrestang</a></li>
                                 </ul>
                             </div>
 
@@ -64,7 +65,8 @@ export default function Home(data) {
 
                     </div>
                     <div className="profile-picture" data-aos="fade-up">
-                        <img src="img/Linkbout/profile.jpg" alt="Profile picture of Alexandre Stang"></img>
+                        {/*<GatsbyImage image={profile_img} alt="Profile picture of Alexandre Stang"/>*/}
+                        <StaticImage src="../../static/about/profile.jpg" alt="Profile picture of Alexandre Stang"></StaticImage>
                     </div>
                 </section>
 
@@ -235,18 +237,6 @@ export default function Home(data) {
                         </form>
                     </div>
                 </section>
-            </div>
-
-            <div className="background-lines">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
 
         </Layout>

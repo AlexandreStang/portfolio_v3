@@ -10,12 +10,8 @@
 module.exports = {
   // Metadata to use throughout the website
   siteMetadata: {
-    author: {
-      full_name: "Alexandre Stang",
-      first_name: "Alexandre",
-      last_name: "Stang"
-    },
-    description: "Portfolio d'Alexandre Stang",
+    author: "Alexandre Stang",
+    description: "Portfolio en ligne d'Alexandre Stang",
     role: "Concepteur technique UI/UX",
     contact: {
       email: "alexandre.stang.web@gmail.com",
@@ -24,5 +20,22 @@ module.exports = {
       behance: "https://www.behance.net/alexandrestang"
     }
   },
-  plugins: [],
+  plugins: [
+    // https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/ <- To transform Markdown files
+    `gatsby-transformer-remark`,
+    // https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/ <- To access and read files
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `images`,
+        // Path to the directory
+        path: `${__dirname}/src/img/`,
+      }
+    },
+    // https://www.gatsbyjs.com/plugins/gatsby-plugin-image/?=gatsby-image <- To add responsive images
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
 }
