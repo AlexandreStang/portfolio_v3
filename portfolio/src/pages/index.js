@@ -66,7 +66,7 @@ export default function Home({data}) {
                     </div>
                     <div className="profile-picture" data-aos="fade-up">
                         {/*<GatsbyImage image={profile_img} alt="Profile picture of Alexandre Stang"/>*/}
-                        <StaticImage src="../../static/about/profile.jpg" alt="Profile picture of Alexandre Stang"></StaticImage>
+                        <StaticImage src="../../static/about/profile.jpg" alt="Profile picture of Alexandre Stang" placeholder="blurred" quality={90}></StaticImage>
                     </div>
                 </section>
 
