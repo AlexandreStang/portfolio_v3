@@ -33,6 +33,15 @@ module.exports = {
         path: `${__dirname}/src/img/`,
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `content`,
+        // Path to the directory
+        path: `${__dirname}/src/content/`,
+      }
+    },
     // https://www.gatsbyjs.com/plugins/gatsby-plugin-image/?=gatsby-image <- To add responsive images
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

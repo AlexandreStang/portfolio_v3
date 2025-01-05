@@ -3,10 +3,10 @@ import {graphql, Link} from 'gatsby'
 import Layout from "../components/Layout";
 import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
-export default function Home(data) {
+export default function Home({data}) {
 
     console.log(data)
-    const siteMetadata = data.data.site.siteMetadata
+    const contact = data.metadata.siteMetadata.contact
 
     return (
         <Layout>
@@ -49,10 +49,10 @@ export default function Home(data) {
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
                                     <li><span className="inline-icon"><i
-                                        className="fas fa-at"></i></span>{siteMetadata.contact.email}
+                                        className="fas fa-at"></i></span>{contact.email}
                                     </li>
                                     <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span>
-                                        <a href={siteMetadata.contact.linkedIn}
+                                        <a href={contact.linkedIn}
                                            className="text-link">/alexandrestang</a></li>
                                 </ul>
                             </div>
@@ -91,7 +91,7 @@ export default function Home(data) {
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
                                     <li><span className="inline-icon"><i className="fab fa-behance"></i></span><a
-                                        href={siteMetadata.contact.behance}
+                                        href={contact.behance}
                                         className="text-link">/alexandrestang</a>
                                     </li>
                                 </ul>
@@ -244,13 +244,27 @@ export default function Home(data) {
 }
 
 export const query = graphql`
-query MyQuery {
-  site {
+query HomeQuery {
+  metadata: site {
     siteMetadata {
       contact {
         behance
         email
         linkedIn
+      }
+    }
+  }
+  projects: allMarkdownRemark {
+    nodes {
+      frontmatter {
+        start_date
+        end_date
+        title
+        thumb {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
