@@ -162,6 +162,7 @@ query HomeQuery {
         startDate
         endDate
         title
+        slug
         thumb {
           childImageSharp {
             gatsbyImageData(

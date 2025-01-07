@@ -5,10 +5,10 @@ isActive: true
 tools:
   - Photoshop
   - Illustrator
-work_type: scolaire, concours
+workType: scolaire, concours
 startDate: 2019
 endDate: 2020
-dateText: automne 2019 - hiver 2020
+fullDate: automne 2019 - hiver 2020
 link: https://www.youtube.com/watch?v=N9DCKCWFQHU
 linkText: Voir le projet en action!
 thumb: ../../img/portfolio/doodleWar.jpg

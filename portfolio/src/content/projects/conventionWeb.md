@@ -12,7 +12,7 @@ tools:
 workType: personnel
 startDate: 2019
 endDate: 2019
-dateText: hiver 2019
+fullDate: hiver 2019
 link: https://alexandrestang.github.io/2018_convention_web/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/conventionWeb.jpg

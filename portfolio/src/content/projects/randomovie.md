@@ -10,7 +10,7 @@ tools:
 workType: personnel
 startDate: 2023
 endDate: 2023
-dateText: 2023
+fullDate: hiver 2023 - automne 2023
 link:
 linkText:
 thumb: ../../img/portfolio/randomovie.jpg

@@ -10,7 +10,7 @@ tools:
 workType: stage
 startDate: 2023
 endDate: 2024
-dateText: été 2023 - printemps 2024
+fullDate: été 2023 - printemps 2024
 link: https://www.porcelainegames.com/games.html
 linkText: Pour plus d'information!
 thumb: ../../img/portfolio/festin.jpg

@@ -11,7 +11,7 @@ tools:
 workType: scolaire
 startDate: 2018
 endDate: 2018
-dateText: automne 2018
+fullDate: automne 2018
 link: https://alexandrestang.github.io/2018_lebatifol/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/lebatifol.jpg
