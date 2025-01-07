@@ -1,6 +1,7 @@
 ---
 title: doodle war
 slug: doodleWar
+is_active: true
 tools:
   - Photoshop
   - Illustrator
