@@ -1,19 +1,19 @@
 ---
 title: portfolio 2.0
 slug: portfolio2
-is_active: true
+isActive: true
 tools:
   - HTML & SCSS
   - Javascript
   - Photoshop
-work_type: personnel
-start_date: 2019
-end_date: 2019
-date_text: hiver 2019
+workType: personnel
+startDate: 2019
+endDate: 2019
+dateText: hiver 2019
 link: https://alexandrestang.github.io/2019_portfolio/
-link_text: Voir la version statique!
+linkText: Voir la version statique!
 thumb: ../../img/portfolio/portfolio2.jpg
-featured_img:
+featuredImg:
   - ../../img/projects/portfolio2/01.jpg
   - ../../img/projects/portfolio2/02.jpg
 ---

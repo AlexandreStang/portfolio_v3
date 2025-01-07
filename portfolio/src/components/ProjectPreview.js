@@ -1,18 +1,23 @@
 import React from "react"
-import "@fortawesome/fontawesome-free/css/all.css" // import "@fortawesome/fontawesome-free/css/all.css"
-import Header from "./Header";
-import AOS from "aos";
-import {Link} from "gatsby";
+import {Link} from "gatsby"
+import {GatsbyImage, getImage} from "gatsby-plugin-image";
 
 export default function projectPreview({ project }) {
 
+    const title = project.frontmatter.title
+    const startDate = project.frontmatter.startDate
+    const endDate = project.frontmatter.endDate
+    const thumb = getImage(project.frontmatter.thumb)
+    console.log(startDate)
+    console.log(endDate)
+
     return (
         <Link to="portfolio/festin.html" className="project-slot">
-            <img src="img/portfolio/festin.jpg" alt="festin"></img>
+            <GatsbyImage image={thumb} alt={title}></GatsbyImage>
             <div className="img-overlay">
                 <div className="mid-center">
-                    <span className="project-date">2023-2024</span>
-                    <span className="project-name">festin</span>
+                    <span className="project-date">{startDate !== endDate ? startDate + " - " + endDate : startDate}</span>
+                    <span className="project-name">{title}</span>
                 </div>
             </div>
         </Link>

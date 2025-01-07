@@ -1,21 +1,21 @@
 ---
 title: le batifol
 slug: lebatifol
-is_active: true
+isActive: true
 tools:
   - HTML & SCSS
   - Javascript
   - PHP
   - Wordpress
   - Photoshop
-work_type: scolaire
-start_date: 2018
-end_date: 2018
-date_text: automne 2018
+workType: scolaire
+startDate: 2018
+endDate: 2018
+dateText: automne 2018
 link: https://alexandrestang.github.io/2018_lebatifol/
-link_text: Voir la version statique!
+linkText: Voir la version statique!
 thumb: ../../img/portfolio/lebatifol.jpg
-featured_img:
+featuredImg:
   - ../../img/projects/lebatifol/01.jpg
   - ../../img/projects/lebatifol/02.jpg
   - ../../img/projects/lebatifol/03.jpg

@@ -1,20 +1,20 @@
 ---
 title: festin
 slug: festin
-is_active: true
+isActive: true
 tools:
   - Unity
   - C#
   - Adobe XD
   - Photoshop
-work_type: stage
-start_date: 2023
-end_date: 2024
-date_text: été 2023 - printemps 2024
+workType: stage
+startDate: 2023
+endDate: 2024
+dateText: été 2023 - printemps 2024
 link: https://www.porcelainegames.com/games.html
-link_text: Pour plus d'information!
+linkText: Pour plus d'information!
 thumb: ../../img/portfolio/festin.jpg
-featured_img: 
+featuredImg: 
   - ../../img/projects/festin/01.png
   - ../../img/projects/festin/02.png
   - ../../img/projects/festin/03.png

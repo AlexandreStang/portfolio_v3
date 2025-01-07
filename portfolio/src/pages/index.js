@@ -1,12 +1,14 @@
 import React, {useEffect} from "react"
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/Layout";
+import ProjectPreview from "../components/ProjectPreview"
 import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
 export default function Home({data}) {
 
     console.log(data)
     const contact = data.metadata.siteMetadata.contact
+    const projects = data.projects.nodes
 
     return (
         <Layout>
@@ -97,121 +99,18 @@ export default function Home({data}) {
                                 </ul>
                             </div>
 
-
                             <div className="project-list mobile" data-aos="fade-up">
-                                <Link to="portfolio/festin.html" className="project-slot">
-                                    <img src="img/portfolio/festin.jpg" alt="festin"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2023-2024</span>
-                                            <span className="project-name">festin</span>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="portfolio/randomovie.html" className="project-slot">
-                                    <img src="img/portfolio/randomovie.jpg" alt="random movie"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2023</span>
-                                            <span className="project-name">randomovie</span>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="portfolio/doodleWar.html" className="project-slot">
-                                    <img src="img/portfolio/doodleWar.jpg" alt="doodle war"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2019-2020</span>
-                                            <span className="project-name">doodle war</span>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="portfolio/portfolio2.html" className="project-slot">
-                                    <img src="img/portfolio/portfolio2.jpg" alt="portfolio 2019"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2019</span>
-                                            <span className="project-name">portfolio 2.0</span>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="portfolio/lebatifol.html" className="project-slot">
-                                    <img src="img/portfolio/lebatifol.jpg" alt="le batifol"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2018</span>
-                                            <span className="project-name">le batifol</span>
-                                        </div>
-                                    </div>
-                                </Link>
-                                <Link to="portfolio/conventionWeb.html" className="project-slot">
-                                    <img src="img/portfolio/conventionWeb.jpg" alt="montreal web convention"></img>
-                                    <div className="img-overlay">
-                                        <div className="mid-center">
-                                            <span className="project-date">2018</span>
-                                            <span className="project-name">convention web de montréal</span>
-                                        </div>
-                                    </div>
-                                </Link>
+                                {projects.slice(0,6).map(project => (
+                                    <ProjectPreview project={project}></ProjectPreview>
+                                ))}
 
                             </div>
                         </div>
                     </div>
                     <div className="project-list desktop" data-aos="fade-up">
-                        <Link to="portfolio/festin.html" className="project-slot">
-                            <img src="img/portfolio/festin.jpg" alt="festin"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2023-2024</span>
-                                    <span className="project-name">festin</span>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="portfolio/randomovie.html" className="project-slot">
-                            <img src="img/portfolio/randomovie.jpg" alt="random movie"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2023</span>
-                                    <span className="project-name">randomovie</span>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="portfolio/doodleWar.html" className="project-slot">
-                            <img src="img/portfolio/doodleWar.jpg" alt="doodle war"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2019-2020</span>
-                                    <span className="project-name">doodle war</span>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="portfolio/portfolio2.html" className="project-slot">
-                            <img src="img/portfolio/portfolio2.jpg" alt="portfolio 2019"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2019</span>
-                                    <span className="project-name">portfolio 2.0</span>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="portfolio/lebatifol.html" className="project-slot">
-                            <img src="img/portfolio/lebatifol.jpg" alt="le batifol"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2018</span>
-                                    <span className="project-name">le batifol</span>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="portfolio/conventionWeb.html" className="project-slot">
-                            <img src="img/portfolio/conventionWeb.jpg" alt="montreal web convention"></img>
-                            <div className="img-overlay">
-                                <div className="mid-center">
-                                    <span className="project-date">2018</span>
-                                    <span className="project-name">convention web de montréal</span>
-                                </div>
-                            </div>
-                        </Link>
+                        {projects.slice(0,6).map(project => (
+                            <ProjectPreview project={project}></ProjectPreview>
+                        ))}
                     </div>
                 </section>
 
@@ -254,15 +153,22 @@ query HomeQuery {
       }
     }
   }
-  projects: allMarkdownRemark {
+  projects: allMarkdownRemark(
+    filter: {frontmatter: {isActive: {eq: true}}}
+    sort: {frontmatter: {startDate: DESC}}
+  ) {
     nodes {
       frontmatter {
-        start_date
-        end_date
+        startDate
+        endDate
         title
         thumb {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(
+                width: 400
+                placeholder: BLURRED
+                formats: [AUTO, WEBP]
+        )
           }
         }
       }

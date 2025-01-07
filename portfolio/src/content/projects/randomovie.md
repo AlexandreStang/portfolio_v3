@@ -1,20 +1,20 @@
 ---
 title: randomovie
 slug: randomovie
-is_active: true
+isActive: true
 tools:
   - HTML & SCSS
   - Javascript
   - React
   - Figma
-work_type: personnel
-start_date: 2023
-end_date: 2023
-date_text: 2023
+workType: personnel
+startDate: 2023
+endDate: 2023
+dateText: 2023
 link:
-link_text:
+linkText:
 thumb: ../../img/portfolio/randomovie.jpg
-featured_img:
+featuredImg:
   - ../../img/projects/randomovie/01.png
   - ../../img/projects/randomovie/02.png
 ---

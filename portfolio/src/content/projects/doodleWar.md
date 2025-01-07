@@ -1,18 +1,18 @@
 ---
 title: doodle war
 slug: doodleWar
-is_active: true
+isActive: true
 tools:
   - Photoshop
   - Illustrator
 work_type: scolaire, concours
-start_date: 2019
-end_date: 2020
-date_text: automne 2019 - hiver 2020
+startDate: 2019
+endDate: 2020
+dateText: automne 2019 - hiver 2020
 link: https://www.youtube.com/watch?v=N9DCKCWFQHU
-link_text: Voir le projet en action!
+linkText: Voir le projet en action!
 thumb: ../../img/portfolio/doodleWar.jpg
-featured_img:
+featuredImg:
   - ../../img/projects/doodleWar/01.png
   - ../../img/projects/doodleWar/02.png
   - ../../img/projects/doodleWar/03.png

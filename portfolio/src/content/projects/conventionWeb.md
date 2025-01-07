@@ -1,7 +1,7 @@
 ---
 title: convention web de montréal
 slug: conventionWeb
-is_active: true
+isActive: true
 tools:
   - HTML & SCSS
   - Javascript
@@ -9,14 +9,14 @@ tools:
   - Wordpress
   - Photoshop
   - Illustrator
-work_type: personnel
-start_date: 2019
-end_date: 2019
-date_text: hiver 2019
+workType: personnel
+startDate: 2019
+endDate: 2019
+dateText: hiver 2019
 link: https://alexandrestang.github.io/2018_convention_web/
-link_text: Voir la version statique!
+linkText: Voir la version statique!
 thumb: ../../img/portfolio/conventionWeb.jpg
-featured_img:
+featuredImg:
   - ../../img/projects/conventionWeb/01.png
   - ../../img/projects/conventionWeb/02.png
   - ../../img/projects/conventionWeb/03.png
