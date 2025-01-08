@@ -33,12 +33,12 @@ export default function Header() {
         <div>
             <header>
                 <div className="wrapper">
-                    <div className="logo"><SmoothScrollLink targetId={"hero"}>as.</SmoothScrollLink></div>
+                    <div className="logo"><SmoothScrollLink path={"/"} targetId={"hero"}>as.</SmoothScrollLink></div>
                     <nav>
                         <ul className="nav-menu nav-desktop">
-                            <li><SmoothScrollLink targetId={"about"}>à propos</SmoothScrollLink></li>
-                            <li><SmoothScrollLink targetId={"portfolio"}>portfolio</SmoothScrollLink></li>
-                            <li><SmoothScrollLink targetId={"contact"}>contact</SmoothScrollLink></li>
+                            <li><SmoothScrollLink path={"/"} targetId={"about"}>à propos</SmoothScrollLink></li>
+                            <li><SmoothScrollLink path={"/"} targetId={"portfolio"}>portfolio</SmoothScrollLink></li>
+                            <li><SmoothScrollLink path={"/"} targetId={"contact"}>contact</SmoothScrollLink></li>
                         </ul>
                         <div className="nav-icon nav-mobile" id="open-menu" onClick={openMenu}>
                             <i className="fas fa-bars"></i>
@@ -50,17 +50,17 @@ export default function Header() {
             <div className="nav-overlay" id="nav-overlay">
                 <nav>
                     <div className="nav-header">
-                        <div className="logo"><SmoothScrollLink targetId={"hero"}>as.</SmoothScrollLink></div>
+                        <div className="logo"><SmoothScrollLink path={"/"} targetId={"hero"}>as.</SmoothScrollLink></div>
                         <div className="nav-icon nav-mobile" id="close-menu" onClick={closeMenu}>
                             <i className="fas fa-times"></i>
                         </div>
                     </div>
                     <ul className="nav-menu">
-                        <li id="nav-about" onClick={closeMenu}><SmoothScrollLink targetId={"about"}>à
+                        <li id="nav-about" onClick={closeMenu}><SmoothScrollLink path={"/"} targetId={"about"}>à
                             propos</SmoothScrollLink></li>
-                        <li id="nav-portfolio" onClick={closeMenu}><SmoothScrollLink
+                        <li id="nav-portfolio" onClick={closeMenu}><SmoothScrollLink path={"/"}
                             targetId={"portfolio"}>portfolio</SmoothScrollLink></li>
-                        <li id="nav-contact" onClick={closeMenu}><SmoothScrollLink
+                        <li id="nav-contact" onClick={closeMenu}><SmoothScrollLink path={"/"}
                             targetId={"contact"}>contact</SmoothScrollLink></li>
                     </ul>
                 </nav>

@@ -5,7 +5,6 @@ import {GatsbyImage, getImage} from "gatsby-plugin-image";
 
 export default function ProjectDetails({data}) {
 
-    console.log(data)
     const html = data.project.html
     const title = data.project.frontmatter.title
     const tools = data.project.frontmatter.tools
