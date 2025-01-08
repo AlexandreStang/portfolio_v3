@@ -52,15 +52,19 @@ export default function ProjectDetails({data}) {
                             </div>
                         </div>
                     </div>
-                    <div className="project-details" style={{width: "100%"}}>
-                        {featuredImg.map(image =>
-                            <div className="img-container" data-aos="fade-in">
-                                <GatsbyImage image={getImage(image)} alt={"dfa"} imgStyle={{ width: "100%", height: "auto", objectFit: "contain" }}></GatsbyImage>
-                            </div>
-                        )}
+                    <div className="project-details">
+                        <div className="img-container" data-aos="fade-in">
+                            {featuredImg.map(image =>
+
+                                <GatsbyImage image={getImage(image)} alt={"Image du project"} imgStyle={{
+                                    width: "100%",
+                                    objectFit: "contain"
+                                }}></GatsbyImage>
+                                )}
+                        </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </Layout>
     )
 }
@@ -79,6 +83,7 @@ query ProjectDetails($slug: String) {
       featuredImg {
         childImageSharp {
             gatsbyImageData(
+                layout: FULL_WIDTH
                 placeholder: BLURRED
                 formats: [AUTO, WEBP]
                 quality: 100

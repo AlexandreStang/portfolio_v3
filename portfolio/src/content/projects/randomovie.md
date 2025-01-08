@@ -15,8 +15,8 @@ link:
 linkText:
 thumb: ../../img/portfolio/randomovie.jpg
 featuredImg:
-  - ../../img/projects/randomovie/01.png
-  - ../../img/projects/randomovie/02.png
+  - ../../img/projects/randomovie/01.jpg
+  - ../../img/projects/randomovie/02.jpg
 ---
 
 Un projet personnel conçu dans le but de me familiariser davantage avec Javascript et la librairie React. Randomovie est

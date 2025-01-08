@@ -21,7 +21,7 @@
     padding-left: 60px;
     padding-right: 60px;
 
-    margin: 75px 0;
+    margin: 75px 0 50px 0;
 }
 
 .column {
@@ -49,22 +49,22 @@
     width: 100%;
 
     .img-container {
-        width: 100%;
-
+        max-width: 100%;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .img-container * {
+    .img-container > * {
         width: 95%;
         max-width: 1200px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         vertical-align: top;
 
         //border: $dark-grey solid 4px;
     }
 
-    .img-container *:last-of-type {
+    .img-container:last-of-type {
         margin-bottom: 2.5%;
     }
     
@@ -129,6 +129,10 @@
 @media screen and (max-width: $vw-vertical-tablet) {
    
     .project-details {
+
+        .img-container > div {
+            width: 100%;
+        }
 
         img {
             width: 100%;
