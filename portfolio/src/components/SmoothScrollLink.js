@@ -2,9 +2,13 @@ import React from 'react';
 import {Link} from "gatsby";
 import {useLocation} from "@reach/router";
 
-const SmoothScrollLink = ({path, targetId, children}) => {
+export default function SmoothScrollLink({path, targetId, children}) {
 
     const location = useLocation()
+
+    if (path === undefined) {
+        path = location.pathname
+    }
 
     const handleScroll = (e) => {
         e.preventDefault();
@@ -16,5 +20,3 @@ const SmoothScrollLink = ({path, targetId, children}) => {
             <Link to={`${path}#${targetId}`}>{children}</Link>
     )
 };
-
-export default SmoothScrollLink;
