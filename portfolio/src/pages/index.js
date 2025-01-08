@@ -6,7 +6,6 @@ import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
 
 export default function Home({data}) {
 
-    console.log(data)
     const contact = data.metadata.siteMetadata.contact
     const projects = data.projects.nodes
 

@@ -38,7 +38,7 @@ export default function ProjectDetails({data}) {
                                 <span>{fullDate}</span>
                             </div>
                             <div className="infobox" data-aos="content-sidebar">
-                                {link === "" ? (
+                                {link === null ? (
                                     ""
                                 ) : (
                                     <>
@@ -53,10 +53,10 @@ export default function ProjectDetails({data}) {
                             </div>
                         </div>
                     </div>
-                    <div className="project-details">
+                    <div className="project-details" style={{width: "100%"}}>
                         {featuredImg.map(image =>
                             <div className="img-container" data-aos="fade-in">
-                                <GatsbyImage image={getImage(image)} alt={"dfa"} imgStyle={{ width: "auto", height: "auto", objectFit: "none" }}></GatsbyImage>
+                                <GatsbyImage image={getImage(image)} alt={"dfa"} imgStyle={{ width: "100%", height: "auto", objectFit: "contain" }}></GatsbyImage>
                             </div>
                         )}
                     </div>

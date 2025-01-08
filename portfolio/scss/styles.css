@@ -1163,13 +1163,13 @@ p {
   display: flex;
   justify-content: center;
 }
-.project-details .img-container * {
+.project-details img {
   width: 95%;
   max-width: 1200px;
   margin-bottom: 10px;
   vertical-align: top;
 }
-.project-details .img-container *:last-of-type {
+.project-details img:last-of-type {
   margin-bottom: 2.5%;
 }
 

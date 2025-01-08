@@ -28,4 +28,4 @@ pour ordinateurs de bureau, une pour tablettes et une pour appareils mobiles. Ap
 base pour la création d'un site avec HTML5, CSS3, SASS et Javascript. Une fois les visuels terminés, je me suis lancé à
 l'adaptation du projet à la librairie React.
 
-Ce projet utilise l'[API de MovieDB](https://www.themoviedb.org/?language=fr).
+Ce projet utilise l'API de [MovieDB](https://www.themoviedb.org/?language=fr).

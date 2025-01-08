@@ -9,8 +9,6 @@ export default function projectPreview({ project }) {
     const startDate = project.frontmatter.startDate
     const endDate = project.frontmatter.endDate
     const thumb = getImage(project.frontmatter.thumb)
-    console.log(startDate)
-    console.log(endDate)
 
     return (
         <Link to={"/projects/" + slug} className="project-slot">
