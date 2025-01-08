@@ -26,7 +26,9 @@ export default function ProjectDetails({data}) {
                         <div className="column sidebar">
                             <div className="infobox" data-aos="content-sidebar">
                                 <h4>outils</h4>
-                                <span>{tools}</span>
+                                <span>{(tools.map(tool =>
+                                    tool
+                                )).join(", ")}</span>
                             </div>
                             <div className="infobox" data-aos="content-sidebar">
                                 <h4>travail</h4>
@@ -60,11 +62,11 @@ export default function ProjectDetails({data}) {
                                     width: "100%",
                                     objectFit: "contain"
                                 }}></GatsbyImage>
-                                )}
-                        </div>
+                            )}
                         </div>
                     </div>
                 </div>
+            </div>
         </Layout>
     )
 }
