@@ -3,6 +3,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from "../components/Layout";
 import ProjectPreview from "../components/ProjectPreview"
 import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
+import resume from "../pdf/stang_alexandre_cv.pdf"
 
 export default function Home({data}) {
 
@@ -59,15 +60,15 @@ export default function Home({data}) {
                             </div>
 
                             <div data-aos="content-text">
-                                <Link to="pdf/stang_alexandre_cv.pdf" className="btn" target="_blank">télécharger mon
-                                    CV</Link>
+                                <a href={resume} className="btn" target="_blank">télécharger mon CV</a>
                             </div>
                         </div>
 
                     </div>
                     <div className="profile-picture" data-aos="fade-up">
                         {/*<GatsbyImage image={profile_img} alt="Profile picture of Alexandre Stang"/>*/}
-                        <StaticImage src="../img/about/profile.jpg" alt="Profile picture of Alexandre Stang" placeholder="blurred" quality={100}></StaticImage>
+                        <StaticImage src="../img/about/profile.jpg" alt="Profile picture of Alexandre Stang"
+                                     placeholder="blurred" quality={100}></StaticImage>
                     </div>
                 </section>
 
@@ -99,7 +100,7 @@ export default function Home({data}) {
                             </div>
 
                             <div className="project-list mobile" data-aos="fade-up">
-                                {projects.slice(0,6).map(project => (
+                                {projects.slice(0, 6).map(project => (
                                     <ProjectPreview project={project}></ProjectPreview>
                                 ))}
 
@@ -107,7 +108,7 @@ export default function Home({data}) {
                         </div>
                     </div>
                     <div className="project-list desktop" data-aos="fade-up">
-                        {projects.slice(0,6).map(project => (
+                        {projects.slice(0, 6).map(project => (
                             <ProjectPreview project={project}></ProjectPreview>
                         ))}
                     </div>
