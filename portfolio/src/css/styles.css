@@ -1191,6 +1191,9 @@ p {
     margin: 40px;
     padding: 0 20px;
   }
+  .project-details {
+    padding: 0 20px;
+  }
   .project-details img {
     width: 90%;
   }
