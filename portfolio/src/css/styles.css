@@ -1005,7 +1005,7 @@ p {
   left: 62.5vw;
   margin-top: 70px;
 }
-.profile-picture img {
+.profile-picture > * {
   width: 25vw;
 }
 
@@ -1018,7 +1018,7 @@ p {
     position: absolute;
     left: 62.5vw;
   }
-  .profile-picture img {
+  .profile-picture > * {
     width: 37.5vw;
   }
 }

@@ -4,7 +4,7 @@ slug: portfolio-2
 isActive: false
 tools:
   - HTML & SCSS
-  - Javascript
+  - JavaScript
   - Photoshop
 workType: personnel
 startDate: 2019

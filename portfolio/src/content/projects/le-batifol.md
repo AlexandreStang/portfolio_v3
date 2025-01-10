@@ -4,7 +4,7 @@ slug: le-batifol
 isActive: false
 tools:
   - HTML & SCSS
-  - Javascript
+  - JavaScript
   - PHP
   - Wordpress
   - Photoshop
@@ -22,7 +22,7 @@ featuredImg:
   - ../../img/projects/le-batifol/04.jpg
 ---
 
-Un projet originalement conçu dans le cadre du cours Production Web au Collège Montpetit en automne 2018. Le but était
+Un projet originalement conçu dans le cadre du cours Production Web au Collège Édouard-Montpetit en automne 2018. Le but était
 de mettre à jour le site web d'une entreprise locale en utilisant le peu d'informations et d'images disponibles sur leur
 site. 
 

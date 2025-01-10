@@ -4,7 +4,7 @@ slug: randomovie
 isActive: true
 tools:
   - HTML & SCSS
-  - Javascript
+  - JavaScript
   - React
   - Figma
 workType: personnel
@@ -25,7 +25,7 @@ cherche.
 
 Le projet a tout d'abord été conçu sur Figma avec la réalisation de trois maquettes sous différentes résolutions : une
 pour ordinateurs de bureau, une pour tablettes et une pour appareils mobiles. Après quoi, ces maquettes ont servi de
-base pour la création d'un site avec HTML5, CSS3, SASS et Javascript. Une fois les visuels terminés, je me suis lancé à
-l'adaptation du projet à la librairie React.
+base pour la création d'un site avec HTML5, SCSS et JavaScript. Une fois les visuels terminés, je me suis lancé à
+l'adaptation du projet avec la librairie React.
 
 Ce projet utilise l'API de [MovieDB](https://www.themoviedb.org/?language=fr).

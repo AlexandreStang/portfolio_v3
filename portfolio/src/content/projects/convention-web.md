@@ -4,7 +4,7 @@ slug: convention-web
 isActive: true
 tools:
   - HTML & SCSS
-  - Javascript
+  - JavaScript
   - PHP
   - Wordpress
   - Photoshop

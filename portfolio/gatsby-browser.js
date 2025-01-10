@@ -3,8 +3,8 @@ import 'aos/dist/aos.css';
 
 export const onInitialClientRender = () => {
 
-    document.body.setAttribute('id', 'body');
-    document.body.setAttribute('data-aos', 'body');
+    // document.body.setAttribute('id', 'body');
+    // document.body.setAttribute('data-aos', 'body');
 
     AOS.init({
         once: true,

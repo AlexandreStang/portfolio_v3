@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, { useState, useEffect } from "react"
 import SmoothScrollLink from "./SmoothScrollLink";
 import gsap from "gsap"; // npm install gsap
 
@@ -24,10 +24,12 @@ export default function Header() {
         gsap.to("#nav-overlay", {opacity: "0", pointerEvents: "none", duration: 0.25})
     };
 
-    // Close the menu if the window is resized
-    window.addEventListener("resize", function (event) {
-        closeMenu();
-    });
+    useEffect(() => {
+        // Close the menu if the window is resized
+        window.addEventListener("resize", function (event) {
+            closeMenu();
+        });
+    })
 
     return (
         <div>

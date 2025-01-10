@@ -9,7 +9,7 @@ tools:
 workType: scolaire, personnel
 startDate: 2020
 endDate: 2020
-fullDate: hiver 2020
+fullDate: hiver - printemps 2020
 link:
 linkText:
 thumb: ../../img/portfolio/colony.jpg
