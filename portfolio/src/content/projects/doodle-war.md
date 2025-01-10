@@ -1,6 +1,6 @@
 ---
 title: doodle war
-slug: doodleWar
+slug: doodle-war
 isActive: true
 tools:
   - Photoshop
@@ -11,11 +11,11 @@ endDate: 2020
 fullDate: automne 2019 - hiver 2020
 link: https://www.youtube.com/watch?v=N9DCKCWFQHU
 linkText: Voir le projet en action!
-thumb: ../../img/portfolio/doodleWar.jpg
+thumb: ../../img/portfolio/doodle-war.jpg
 featuredImg:
-  - ../../img/projects/doodleWar/01.png
-  - ../../img/projects/doodleWar/02.png
-  - ../../img/projects/doodleWar/03.png
+  - ../../img/projects/doodle-war/01.png
+  - ../../img/projects/doodle-war/02.png
+  - ../../img/projects/doodle-war/03.png
 ---
 
 Un projet réalisé dans le cadre du concours GrosJoueurs à l'UQAT entre 2019 et 2020. Doodle War est une expérience

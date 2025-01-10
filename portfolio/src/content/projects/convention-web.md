@@ -1,6 +1,6 @@
 ---
 title: convention web de montréal
-slug: conventionWeb
+slug: convention-web
 isActive: true
 tools:
   - HTML & SCSS
@@ -15,11 +15,11 @@ endDate: 2019
 fullDate: hiver 2019
 link: https://alexandrestang.github.io/2018_convention_web/
 linkText: Voir la version statique!
-thumb: ../../img/portfolio/conventionWeb.jpg
+thumb: ../../img/portfolio/convention-web.jpg
 featuredImg:
-  - ../../img/projects/conventionWeb/01.png
-  - ../../img/projects/conventionWeb/02.png
-  - ../../img/projects/conventionWeb/03.png
+  - ../../img/projects/convention-web/01.png
+  - ../../img/projects/convention-web/02.png
+  - ../../img/projects/convention-web/03.png
 ---
 
 Un projet originalement conçu dans le cadre du cours Design d'Expérience au Collège Montpetit au printemps 2018. Le but
