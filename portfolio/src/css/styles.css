@@ -629,6 +629,10 @@ input:focus, textarea:focus {
   display: inline;
 }
 
+.input-secret {
+  display: none;
+}
+
 .landing-page .content {
   height: 100%;
   display: flex;

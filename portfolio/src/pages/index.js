@@ -1,9 +1,10 @@
-import React, {useEffect} from "react"
-import {graphql, Link} from 'gatsby'
+import React from "react"
+import {graphql} from 'gatsby'
 import Layout from "../components/Layout";
 import ProjectPreview from "../components/ProjectPreview"
-import {GatsbyImage, getImage, StaticImage} from "gatsby-plugin-image";
+import {StaticImage} from "gatsby-plugin-image";
 import resume from "../pdf/stang_alexandre_cv.pdf"
+import ContactForm from "../components/ContactForm";
 
 export default function Home({data}) {
 
@@ -88,7 +89,7 @@ export default function Home({data}) {
                                 </p>
                                 <p data-aos="content-text">D'autres projets, spécifiquement ceux reliés au design, sont
                                     aussi
-                                    disponibles sur mon compte Behance.</p>
+                                    disponibles sur mon compte Behance, accessible avec le lien ci-dessous:</p>
                             </div>
                             <div className="social-networks" data-aos="content-text">
                                 <ul>
@@ -119,21 +120,11 @@ export default function Home({data}) {
                         {/*<div className="arrow-top">*/}
                         {/*    <span><i className="fas fa-chevron-up"></i></span>*/}
                         {/*</div>*/}
-                        <form action="" method="post" id="contact-form">
+                        <div>
                             <h2 data-aos="content-text">contact</h2>
-                            <div className="input-div"><input type="text" name="visitor_name" placeholder="Votre nom..."
-                                                              data-aos="content-text" required></input></div>
-                            <div className="input-div"><input type="email" name="visitor_email"
-                                                              placeholder="Votre adresse courriel..."
-                                                              data-aos="content-text" required></input>
-                            </div>
-                            <div className="input-div"><textarea rows="9" name="visitor_message"
-                                                                 placeholder="Votre message..."
-                                                                 data-aos="content-text" required></textarea></div>
-                            <div data-aos="content-text">
-                                <button type="submit" name="submit" value="envoyer">envoyer</button>
-                            </div>
-                        </form>
+                            <ContactForm></ContactForm>
+                        </div>
+
                     </div>
                 </section>
             </div>
