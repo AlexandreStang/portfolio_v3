@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "gatsby",
-    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2021_portfolio/portfolio/src",
+    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2021_portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +79,7 @@
       <workItem from="1735322125008" duration="600000" />
       <workItem from="1735410649863" duration="716000" />
       <workItem from="1735957180563" duration="13204000" />
+      <workItem from="1736878708431" duration="319000" />
     </task>
     <servers />
   </component>

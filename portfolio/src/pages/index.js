@@ -39,19 +39,14 @@ export default function Home({data}) {
                         <div>
                             <h2 data-aos="content-text">à propos</h2>
                             <div className="about-description" data-aos="content-text">
-                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel! Diplomé du
-                                    programme de technique d'intégration multimédia du Cégep Montpetit, du DEC-BAC en
-                                    création de jeux vidéo de l'UQAT et du programme d'informatique de l'UDEM, j'ai
-                                    acquis une expertise complète pour concevoir des expériences numériques
-                                    exceptionnelles!</p>
+                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel diplômé d'un DEC-BAC en
+                                    création de jeux vidéo et d'un baccalauréat en informatique!</p>
                                 <p>Non seulement je maîtrise le design d'interface utilisteur (que ce soit avec <b>Figma ou
                                     les logiciels de la suite Adobe</b>), mais je peux les transformer en sites web
                                     fonctionnels grâce à mes
                                     connaissances en <b>HTML5, CSS3 et JavaScript</b>! Mon expertise s'étend également au
                                     développement de jeux vidéo avec <b>C#
-                                        et Unity</b>, où j’ai eu l’opportunité de créer des jeux interactifs, de concevoir des
-                                    mécaniques de jeu et de travailler sur l’intégration d'assets visuels
-                                    pour des projets captivants!</p>
+                                        et Unity</b>!</p>
                                 <p>Je suis à la fois une personne perfectionniste et travailleuse, toujours déterminée à
                                     m'améliorer et à apprendre de nouvelles choses avec chaque nouveau projet!</p>
                             </div>
