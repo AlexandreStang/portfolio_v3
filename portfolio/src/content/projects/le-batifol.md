@@ -2,6 +2,8 @@
 title: le batifol
 slug: le-batifol
 isActive: false
+featured: false
+category: web
 tools:
   - HTML & SCSS
   - JavaScript

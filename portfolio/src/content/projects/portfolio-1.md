@@ -1,7 +1,9 @@
 ---
 title: portfolio 1.0
 slug: portfolio-1
-isActive: true
+isActive: false
+featured: false
+category: web
 tools:
   - HTML & SCSS
   - JavaScript

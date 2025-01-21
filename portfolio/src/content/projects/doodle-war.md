@@ -2,7 +2,11 @@
 title: doodle war
 slug: doodle-war
 isActive: true
+featured: true
+category: jeux vidéo
 tools:
+  - Unity
+  - C#
   - Photoshop
   - Illustrator
 workType: scolaire, concours

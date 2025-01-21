@@ -2,6 +2,8 @@
 title: colony
 slug: colony
 isActive: true
+featured: true
+category: jeux vidéo
 tools:
   - C#
   - Unity

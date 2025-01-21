@@ -541,6 +541,7 @@ h4 {
 a {
   text-decoration: none;
   color: #E09F3E;
+  cursor: pointer;
 }
 
 a:hover {
@@ -549,6 +550,14 @@ a:hover {
 
 .text-link {
   display: inline-block;
+  text-decoration: none;
+  color: #E09F3E;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.text-link.active {
+  font-weight: 700;
 }
 
 .text-link:after {
@@ -1098,6 +1107,9 @@ p {
   .project-list.desktop {
     width: 37.5vw;
   }
+  .project-name {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .project-list.desktop {
@@ -1108,10 +1120,13 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .project-name {
+    font-size: 1.75rem;
+  }
 }
 @media screen and (max-width: 480px) {
-  .project-slot {
-    width: 100%;
+  .project-name {
+    font-size: 1.5rem;
   }
 }
 .contact input {

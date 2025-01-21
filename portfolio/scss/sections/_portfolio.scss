@@ -85,6 +85,10 @@
     .project-list.desktop {
         width: $w-col3;
     }
+
+    .project-name {
+        font-size: $fs-title-4;
+    }
 }
 
 @media screen and (max-width: $vw-vertical-tablet) {
@@ -97,10 +101,18 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    .project-name {
+        font-size: $fs-title-3;
+    }
 }
 
 @media screen and (max-width: $vw-mobile) {
-    .project-slot {
-        width: 100%;
+    //.project-slot {
+    //    width: 100%;
+    //}
+
+    .project-name {
+        font-size: $fs-title-4;
     }
 }

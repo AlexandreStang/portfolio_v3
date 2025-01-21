@@ -2,6 +2,8 @@
 title: convention web de montréal
 slug: convention-web
 isActive: true
+featured: true
+category: web
 tools:
   - HTML & SCSS
   - JavaScript

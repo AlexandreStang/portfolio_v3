@@ -2,6 +2,8 @@
 title: portfolio 2.0
 slug: portfolio-2
 isActive: false
+featured: false
+category: web
 tools:
   - HTML & SCSS
   - JavaScript

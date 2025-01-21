@@ -3,6 +3,7 @@
 a {
   text-decoration: none;
   color: $yellow;
+  cursor: pointer;
 }
 
 a:hover {
@@ -12,6 +13,15 @@ a:hover {
 // In text links
 .text-link {
   display: inline-block;
+
+  text-decoration: none;
+  color: $yellow;
+  cursor: pointer;
+  transition: $global-transition;
+}
+
+.text-link.active {
+  font-weight: $fw-bold;
 }
 
 .text-link:after {

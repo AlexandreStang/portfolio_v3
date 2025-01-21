@@ -2,6 +2,8 @@
 title: festin
 slug: festin
 isActive: true
+featured: true
+category: jeux vidéo
 tools:
   - Unity
   - C#
@@ -27,10 +29,10 @@ sim-lite mélangeant gestion et gastronomie développé en vue pour une sortie s
 ingrédients au cours de chaque journée afin de préparer toutes sortes de délicieux repas.
 
 En tant que concepteur technique UI/UX, j'ai eu l'opportunité de jouer un grand rôle dans la conception UX du projet
-puisque j'étais chargé de créer des wireframes pour chacun des écrans du jeu. J'ai également travaillé sur la conception
+puisque j'étais chargé de créer des wireframes pour chaque écran du jeu. J'ai également travaillé sur la conception
 UI de certains écrans, me basant sur les règles d'interface utilisateur définies par l'artiste principal Minhye Kim.
-J'étais aussi responsable de l'intégration de toutes les interfaces utilisateur que nous avons créées à l'intérieur de
+J'étais aussi responsable de l'intégration de toutes les interfaces utilisateur à l'intérieur de
 l'engin Unity, cela en utilisant le langage de programmation C#. Tout mon travail sur ce projet a été réalisé sous la
-supervision de la game designer Marielle Bissonnette Lavoie.
+supervision de la game designer [Marielle Bissonnette Lavoie](https://www.linkedin.com/in/marielle-bissonnette-lavoie-7a265354/).
 
 Les images suivantes montrent l'état du dernier prototype sur lequel j'ai travaillé en mars 2024.

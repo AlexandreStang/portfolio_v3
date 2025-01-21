@@ -2,6 +2,8 @@
 title: randomovie
 slug: randomovie
 isActive: true
+featured: true
+category: web
 tools:
   - HTML & SCSS
   - JavaScript

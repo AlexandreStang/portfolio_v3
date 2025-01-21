@@ -88,17 +88,19 @@ export default function Home({data}) {
                                     designer UI, intégrateur web ou même programmeur! Voici donc un bref aperçu de mes
                                     meilleurs travaux.
                                 </p>
-                                <p data-aos="content-text">D'autres projets, spécifiquement ceux reliés au design, sont
-                                    aussi
-                                    disponibles sur mon compte Behance, accessible avec le lien ci-dessous:</p>
                             </div>
-                            <div className="social-networks" data-aos="content-text">
-                                <ul>
-                                    <li><span className="inline-icon"><i className="fab fa-behance"></i></span><a
-                                        href={contact.behance}
-                                        className="text-link">/alexandrestang</a>
-                                    </li>
-                                </ul>
+                            {/*<div className="social-networks" data-aos="content-text">*/}
+                            {/*    <ul>*/}
+                            {/*        <li><span className="inline-icon"><i className="fab fa-behance"></i></span><a*/}
+                            {/*            href={contact.behance}*/}
+                            {/*            className="text-link">/alexandrestang</a>*/}
+                            {/*        </li>*/}
+                            {/*    </ul>*/}
+                            {/*</div>*/}
+                            <div className="portfolio-description" data-aos="content-text">
+                                <span className="text-link active">en vedette</span> {" / "}
+                                <span className="text-link">jeux vidéo</span> {" / "}
+                                <span className="text-link">web</span>
                             </div>
 
                             <div className="project-list mobile" data-aos="fade-up">
