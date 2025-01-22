@@ -8,11 +8,12 @@ tools:
   - HTML & SCSS
   - JavaScript
   - React
+  - TMDb API
   - Figma
 workType: personnel
 startDate: 2023
 endDate: 2023
-fullDate: hiver 2023 - automne 2023
+fullDate: hiver 2023 - hiver 2025
 link:
 linkText:
 thumb: ../../img/portfolio/randomovie.jpg
@@ -30,4 +31,4 @@ pour ordinateurs de bureau, une pour tablettes et une pour appareils mobiles. Ap
 base pour la création d'un site avec HTML5, SCSS et JavaScript. Une fois les visuels terminés, je me suis lancé à
 l'adaptation du projet avec la librairie React.
 
-Ce projet utilise l'API de [MovieDB](https://www.themoviedb.org/?language=fr).
+Ce projet utilise l'API de [TheMovieDB](https://www.themoviedb.org/?language=fr).

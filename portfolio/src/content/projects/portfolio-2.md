@@ -1,7 +1,7 @@
 ---
 title: portfolio 2.0
 slug: portfolio-2
-isActive: false
+isActive: true
 featured: false
 category: web
 tools:

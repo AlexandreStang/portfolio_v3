@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/content/projects/ethereal_estate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Tabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/scss/elements/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/elements/_links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/scss/sections/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/scss/sections/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/colony.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/colony.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/convention-web.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/convention-web.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/doodle-war.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/doodle-war.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/festin.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/festin.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/le-batifol.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/le-batifol.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/portfolio-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/portfolio-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/portfolio-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/portfolio-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/content/projects/randomovie.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/content/projects/randomovie.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/img/projects/le-batifol/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/img/projects/le-batifol/04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +48,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2021_portfolio/portfolio/src/content/projects",
+    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2025_portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,7 +101,8 @@
       <workItem from="1736972087220" duration="3772000" />
       <workItem from="1737040382859" duration="1927000" />
       <workItem from="1737137584982" duration="1890000" />
-      <workItem from="1737475459275" duration="11920000" />
+      <workItem from="1737475459275" duration="12062000" />
+      <workItem from="1737570183045" duration="2896000" />
     </task>
     <servers />
   </component>

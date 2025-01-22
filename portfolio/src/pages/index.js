@@ -1,15 +1,43 @@
-import React from "react"
+import React, {useState} from "react"
 import {graphql} from 'gatsby'
 import Layout from "../components/Layout";
 import ProjectPreview from "../components/ProjectPreview"
 import {StaticImage} from "gatsby-plugin-image";
 import resume from "../pdf/stang_alexandre_cv.pdf"
 import ContactForm from "../components/ContactForm";
+import Tabs from "../components/Tabs";
 
 export default function Home({data}) {
 
     const contact = data.metadata.siteMetadata.contact
     const projects = data.projects.nodes
+    const featuredText = "en vedette"
+
+    // State for filtered category
+    const [filteredCategory, setFilteredCategory] = useState(featuredText);
+
+    const categories = [
+        ...new Set(projects.map((project) => project.frontmatter.category)),
+    ];
+
+    const categoryCounts = projects.reduce((acc, project) => {
+        const category = project.frontmatter.category;
+        acc[category] = (acc[category] || 0) + 1;
+
+        if (project.frontmatter.featured) {
+            acc[featuredText] = (acc[featuredText] || 0) + 1;
+        }
+
+        return acc;
+    }, {});
+
+    // Array of all filtered projects (based on filteredCategory)
+    const filteredProjects =
+        filteredCategory === featuredText
+            ? projects.filter(
+                (project) => project.frontmatter.featured === true)
+            : projects.filter(
+                (project) => project.frontmatter.category === filteredCategory);
 
     return (
         <Layout>
@@ -97,23 +125,24 @@ export default function Home({data}) {
                             {/*        </li>*/}
                             {/*    </ul>*/}
                             {/*</div>*/}
-                            <div className="portfolio-description" data-aos="content-text">
-                                <span className="text-link active">en vedette</span> {" / "}
-                                <span className="text-link">jeux vidéo</span> {" / "}
-                                <span className="text-link">web</span>
-                            </div>
+                            <Tabs
+                                categories={[featuredText, ...categories]}
+                                onSelectCategory={(category) => setFilteredCategory(category)}
+                                defaultCategory={featuredText}
+                                categoryCounts={categoryCounts}
+                            ></Tabs>
 
                             <div className="project-list mobile" data-aos="fade-up">
-                                {projects.slice(0, 6).map(project => (
-                                    <ProjectPreview project={project}></ProjectPreview>
+                                {filteredProjects.slice(0, 6).map(project => (
+                                    <ProjectPreview project={project} key={project.frontmatter.title}></ProjectPreview>
                                 ))}
 
                             </div>
                         </div>
                     </div>
                     <div className="project-list desktop" data-aos="fade-up">
-                        {projects.slice(0, 6).map(project => (
-                            <ProjectPreview project={project}></ProjectPreview>
+                        {filteredProjects.slice(0, 6).map(project => (
+                            <ProjectPreview project={project} key={project.frontmatter.title}></ProjectPreview>
                         ))}
                     </div>
                 </section>
@@ -159,13 +188,11 @@ query HomeQuery {
         slug
         thumb {
           childImageSharp {
-            gatsbyImageData(
-                width: 400
-                placeholder: BLURRED
-                formats: [AUTO, WEBP]
-        )
+            gatsbyImageData(width: 400, placeholder: BLURRED, formats: [AUTO, WEBP])
           }
         }
+        category
+        featured
       }
     }
   }

@@ -30,4 +30,4 @@ tout a été fait sur Photoshop et Illustrator.
 
 Après quoi, dans le cours de Conception Web IV, ce concept a été converti en site statique et ensuite en site web
 Wordpress intégré avec PHP, permettant à l'utilisateur de modifier directement la liste des invités et des évènements à
-venir.
+venir. La version Wordpress n'est désormais plus disponible, mais une version statique du site peut être consultée.
