@@ -1,0 +1,44 @@
+@use "../settings/dimensions";
+@use "../settings/fonts";
+@use "../settings/global";
+
+.arrow-bottom,
+.arrow-top {
+    position: absolute;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    font-size: fonts.$fs-arrow;
+
+    left: 0;
+    right: 0;
+
+    span {
+        opacity: 10%;
+        transition: global.$global-transition;
+
+        cursor: pointer;
+    }
+
+    span:hover {
+        opacity: 25%;
+        transition: global.$global-transition;
+    }
+}
+
+.arrow-bottom {
+    bottom: 80px;
+}
+
+.arrow-top {
+    top: calc(20px + 70px); 
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+    .arrow-bottom,
+    .arrow-top {
+        display: none;
+    }
+}

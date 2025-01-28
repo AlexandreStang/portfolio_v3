@@ -1,0 +1,134 @@
+@use "../settings/colors";
+@use "../settings/dimensions";
+@use "../settings/fonts";
+
+//// NAVIGATION STYLES
+
+header {
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: colors.$dark-grey;
+    border-bottom: 1px solid colors.$light-grey;
+
+    position: fixed;
+    z-index: 999;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: dimensions.$w-col1;
+        margin-right: dimensions.$w-col1;
+    }
+}
+
+.logo {
+    font-family: fonts.$ff-title;
+    font-weight: fonts.$fw-bold;
+    font-size: 3.5rem;
+
+    a {
+        color: colors.$white;
+    }
+
+    a:hover {
+        color: colors.$yellow;
+    }
+}
+
+.nav-menu {
+    font-size: fonts.$fs-subtitle;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        margin-left: 60px;
+    }
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-icon {
+    font-size: fonts.$fs-subtitle;
+}
+
+// MOBILE OVERLAY
+
+.nav-overlay {
+    position: fixed;
+
+    z-index: 999;
+
+    background-color: colors.$dark-grey;
+
+    width: 100vw;
+    height: 100vh;
+
+    nav {
+        position: fixed;
+        width: 100%;
+
+        padding: 0 dimensions.$w-col1;
+        text-align: end;
+
+        li {
+            margin-top: 20px;
+        }
+    }
+
+    .nav-header {
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+}
+
+#nav-overlay {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#nav-about, #nav-portfolio, #nav-contact {
+    opacity: 0;
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: initial;
+
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-mobile) {
+    header .wrapper {
+        margin-left: dimensions.$mobile-padding-side-special;
+        margin-right: dimensions.$mobile-padding-side-special;
+    }
+
+    .nav-overlay nav {
+        padding-left: dimensions.$mobile-padding-side-special;
+        padding-right: dimensions.$mobile-padding-side-special;
+    }
+}

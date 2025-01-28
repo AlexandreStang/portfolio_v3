@@ -1,0 +1,94 @@
+@use "../settings/colors";
+
+[data-aos="body"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+
+    &.aos-animate {
+        opacity: 1;
+    }
+}
+
+[data-aos="banner"] {
+    background: linear-gradient(to right, colors.$yellow 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    transition-property: background-position;
+
+    &.aos-animate {
+        background-position: left bottom;
+    }
+}
+
+[data-aos="content-text"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+
+    transform: translateX(-20px);
+
+    &.aos-animate {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+[data-aos="content-sidebar"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+
+    transform: translateX(20px);
+
+    &.aos-animate {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+[data-aos="background"] {
+    
+    transform: translateY(-900px);
+    transition-property: transform;
+
+    &.aos-animate {
+        transform: translateY(0px);
+    }
+
+}
+
+[data-aos="content-sidebar"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+
+    transform: translateX(20px);
+
+    &.aos-animate {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+[data-aos="arrows"] {
+    opacity: 0;
+    transition-property: opacity, transform;
+
+    transform: translateY(0);
+
+    &.aos-animate {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+
+[data-aos="input"] {
+    background: linear-gradient(to right, colors.$dark-grey 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    transition-property: background-position;
+
+    &.aos-animate {
+        background-position: left bottom;
+    }
+}
+

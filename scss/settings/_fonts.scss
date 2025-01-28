@@ -1,0 +1,24 @@
+@use "../tools/fonctions";
+
+////FONT VARIABLES
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+///// Font Family
+$ff-title: 'Josefin Sans', sans-serif;
+$ff-text: 'Source Sans Pro', sans-serif;
+
+///// Font Sizes
+$fs-title-1: fonctions.rem(96);
+$fs-title-2: fonctions.rem(64);
+$fs-project-title: fonctions.rem(48);
+$fs-arrow: fonctions.rem(36);
+$fs-title-3: fonctions.rem(28);
+$fs-title-4: fonctions.rem(24);
+$fs-subtitle: fonctions.rem(20);
+$fs-text: fonctions.rem(16);
+$fs-small: fonctions.rem(12);
+
+///// Fonts weight
+$fw-regular: 400;
+$fw-bold: 700;

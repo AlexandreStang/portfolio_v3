@@ -1,0 +1,156 @@
+@use "../settings/dimensions";
+@use "../settings/fonts";
+
+.project {
+    .content {
+        width: dimensions.$w-col6;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+}
+
+.project-introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 60px;
+    padding-right: 60px;
+
+    margin: 75px 0 50px 0;
+}
+
+.column {
+    width: 65%;
+
+    h2 {
+        font-size: fonts.$fs-project-title;
+    }
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.infobox {
+    margin-bottom: 25px;
+
+    h4 {
+        margin-bottom: 5px;
+    }
+}
+
+.project-details {
+
+    width: 100%;
+
+    .img-container {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-container > * {
+        width: 95%;
+        max-width: 1200px;
+        margin-bottom: 20px;
+        vertical-align: top;
+
+        //border: $dark-grey solid 4px;
+    }
+
+    .img-container:last-of-type {
+        margin-bottom: 2.5%;
+    }
+    
+}
+
+.project-subsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.project-subsection-text {
+    width: 50%;
+}
+
+@media screen and (max-width: dimensions.$vw-small-desktop) {
+    .project-introduction {
+        margin: 40px;
+        padding: 0 dimensions.$mobile-padding-side;
+    }
+
+    .project-details {
+
+        padding: 0 dimensions.$mobile-padding-side;
+
+        img {
+            width: 90%;
+        }
+
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-horizontal-tablet) {
+    .project-introduction {
+       display: block;
+       margin: 45px 0;
+    }
+    
+    .column {
+        width: 100%;
+    }
+
+    .project-details {
+
+        img {
+            width: 95%;
+        }
+
+    }
+
+    .project-subsection {
+        margin: 45px 0;
+     }
+
+     .project-subsection-text {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+   
+    .project-details {
+
+        .img-container > div {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            border-left: 0;
+            border-right: 0;
+        }
+
+    }
+
+    .project .content {
+        width: 100vw;
+
+    }
+}
+
+

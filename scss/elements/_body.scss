@@ -1,0 +1,87 @@
+@use "../settings/colors";
+@use "../settings/dimensions";
+@use "../settings/fonts";
+
+//// BODY STYLES
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-weight: fonts.$fw-regular;
+  font-family: fonts.$ff-text;
+  font-size: fonts.$fs-text;
+  color: colors.$white;
+
+  background: colors.$dark-grey;
+
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+}
+
+.noScroll {
+  //overflow: hidden;
+  overflow-y: hidden;
+}
+
+.background-lines {
+  position: fixed;
+  top: 0;
+
+  z-index: -999;
+
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    content: "";
+
+    display: inline-block;
+
+    height: 100vh;
+
+    border-right: 1px solid colors.$light-grey;
+  }
+
+  div:nth-last-child(1) {
+    border-right: 1px solid colors.$dark-grey;
+  }
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+  html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+  }
+
+
+  .background-lines {
+    display: none;
+  }
+
+  .noScroll {
+    //overflow: hidden;
+    overflow-y: auto;
+  }
+}
+
+.landing-page {
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+//DONE

@@ -1,0 +1,123 @@
+@use "../settings/colors";
+@use "../settings/dimensions";
+@use "../settings/fonts";
+@use "../settings/global";
+
+.portfolio-description {
+    margin-bottom: 40px;
+}
+
+.project-list.desktop {
+    position: absolute;
+
+    width: dimensions.$w-col2;
+    left: dimensions.$w-col5;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.project-list.mobile {
+    display: none;
+
+    width: 100%;
+}
+
+.project-slot {
+    position: relative;
+
+    width: 50%;
+    //margin-top: 0.7vw;
+
+    color: colors.$dark-grey;
+
+    font-size: 0;
+
+    img {
+        width: 100%;
+    }
+}
+
+.img-overlay {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: global.$global-transition;
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    padding: 20px;
+
+    background-color: colors.$yellow;
+}
+
+.img-overlay:hover {
+    opacity: 100;
+    transition: global.$global-transition;
+}
+
+.mid-center {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        width: 100%;
+
+        text-align: center;
+    }
+}
+
+.project-date {
+    font-size: fonts.$fs-text;
+}
+
+.project-name {
+    font-size: fonts.$fs-title-3;
+    font-weight: fonts.$fw-bold;
+}
+
+@media screen and (max-width: dimensions.$vw-small-desktop) {
+    .project-list.desktop {
+        width: dimensions.$w-col3;
+    }
+
+    .project-name {
+        font-size: fonts.$fs-title-4;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+    .project-list.desktop {
+        display: none;
+    }
+
+    .project-list.mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project-name {
+        font-size: fonts.$fs-title-3;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-mobile) {
+    //.project-slot {
+    //    width: 100%;
+    //}
+
+    .project-name {
+        font-size: fonts.$fs-title-4;
+    }
+}

@@ -1,0 +1,92 @@
+@use "../settings/colors";
+@use "../settings/fonts";
+@use "../settings/global";
+
+//// LINK STYLES
+
+a {
+  text-decoration: none;
+  color: colors.$yellow;
+  cursor: pointer;
+}
+
+a:hover {
+  transition: global.$global-transition;
+}
+
+// In text links
+.text-link {
+  display: inline-block;
+
+  text-decoration: none;
+  color: colors.$yellow;
+  cursor: pointer;
+  transition: global.$global-transition;
+}
+
+.text-link.active {
+  font-weight: fonts.$fw-bold;
+}
+
+.text-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: colors.$yellow;
+  transition: width .3s;
+  margin-top: 0.25rem;
+}
+
+.text-link:hover:after {
+  width: 100%;
+}
+
+// Navigation Bar Links
+nav a { 
+  font-family: fonts.$ff-title;
+  font-weight: fonts.$fw-bold;
+  color: colors.$white;
+}
+
+nav a:hover {
+  color: colors.$yellow;
+}
+
+// Buttons
+a.btn, button {
+  border: 1px solid colors.$yellow;
+  height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  //
+  font-family: fonts.$ff-title;
+  font-weight: fonts.$fw-bold;
+  font-size: fonts.$fs-text;
+  color: colors.$white;
+  //
+  transition: global.$global-transition;
+  //
+  display: table-cell;
+  vertical-align: middle;
+  //
+  border-radius: 90px;
+  //
+  background-color: transparent;
+  //
+  cursor: pointer;
+}
+
+a.btn:hover, button:hover {
+  color: colors.$dark-grey;
+  background-color: colors.$yellow;
+  transition: global.$global-transition;
+
+  transform: translateY(-2px);
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
+

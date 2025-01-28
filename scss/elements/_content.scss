@@ -1,0 +1,100 @@
+@use "../settings/colors";
+@use "../settings/dimensions";
+
+//// CONTENT STYLES
+
+.landing-page .content {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: colors.$light-grey;
+
+    width: dimensions.$w-col3;
+
+    margin-left: dimensions.$w-col1;
+    padding: 0 60px;
+
+    position: relative;
+}
+
+.content::after {
+    content: "";
+
+    position: absolute;
+
+    width: 60px;
+    height: 100%;
+    background: colors.$light-grey;
+    opacity: 60%;
+
+    right: -70px;
+    top: 0;
+
+    z-index: 0;
+}
+
+.content::before {
+    content: "";
+
+    position: absolute;
+
+    width: 20px;
+    height: 100%;
+    background: colors.$light-grey;
+    opacity: 30%;
+
+    right: -100px;
+    top: 0;
+
+    z-index: 0;
+}
+
+@media screen and (max-width: dimensions.$vw-horizontal-tablet) {
+    .content {
+        margin-left: 0;
+        width: dimensions.$w-col4;
+    }
+
+    .content::after {
+        width: 40px;
+        right: -50px;
+    }
+
+    .content::before {
+        width: 15px;
+        right: -75px;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-small-desktop) {
+    .content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+    .landing .content {
+        padding-bottom: 60px;
+    }
+    
+    .content {
+        margin-left: 0;
+        width: 100vw;
+
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-mobile) {
+    .content {
+        margin-left: 0;
+        width: 100vw;
+
+        padding-left: dimensions.$mobile-padding-side;
+        padding-right: dimensions.$mobile-padding-side;
+    }
+}

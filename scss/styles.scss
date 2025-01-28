@@ -1,0 +1,38 @@
+
+// GENERIC
+@use "generic/_reset";
+@use "generic/_normalize";
+
+// TOOLS
+@use "tools/_fonctions";
+
+// SETTINGS
+@use "settings/_global";
+@use "settings/_dimensions";
+@use "settings/_fonts";
+@use "settings/_colors";
+
+// ELEMENTS
+@use "elements/_arrows";
+@use "elements/_body";
+@use "elements/_headings";
+@use "elements/_links";
+@use "elements/_inputs";
+@use "elements/_content";
+@use "elements/_wrapper";
+@use "elements/_header";
+@use "elements/_sections";
+@use "elements/_icons";
+@use "elements/_paragraphs";
+
+// SECTIONS
+@use "sections/_hero";
+@use "sections/_about";
+@use "sections/_portfolio";
+@use "sections/_contact";
+@use "sections/_project";
+
+// ANIMATIONS
+@use "animations/_data-aos";
+
+

@@ -1,0 +1,9 @@
+@use "../settings/colors";
+
+.inline-icon {
+    color: colors.$yellow;
+
+    font-size: 1.3rem;
+
+    margin-right: 20px;
+}

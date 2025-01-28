@@ -1,0 +1,96 @@
+@use "../settings/colors";
+@use "../settings/dimensions";
+@use "../settings/fonts";
+
+.hero {
+    .content {
+        height: 100vh;
+    }
+}
+
+.banner {
+    background-color: colors.$yellow;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    position: absolute;
+    left: 0;
+
+    z-index: 1;
+
+    width: dimensions.$w-col6;
+}
+
+.first-name {
+    display: inline-block;
+
+    margin-left: dimensions.$w-col1;
+    margin-right: 100%;
+
+    height: 50px;
+}
+
+.last-name {
+    display: inline-block;
+
+    margin-left: dimensions.$w-col2;
+    margin-right: 100%;
+}
+
+.roles {
+    color: colors.$dark-grey;
+
+    display: inline-block;
+
+    margin-left: dimensions.$w-col1-5;
+
+    h3 {
+        position: relative;
+    }
+
+    h3:before {
+        position: absolute;
+
+        content: "";
+
+        width: 2px;
+        height: 100%;
+        background: colors.$dark-grey;
+
+        left: -20px;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-small-desktop) {
+    .banner {
+        width: dimensions.$w-col8;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-vertical-tablet) {
+   
+    .first-name h1, .last-name h1 {
+        font-size: fonts.$fs-title-2;
+    }
+
+    .last-name {
+        margin-left: dimensions.$w-col3;
+    }
+
+    .roles h3 {
+        font-size: fonts.$fs-subtitle;
+    }
+}
+
+@media screen and (max-width: dimensions.$vw-mobile) {
+   
+    .first-name {
+        margin-left: dimensions.$mobile-padding-side;
+    }
+
+    .roles {
+        margin-left: dimensions.$mobile-padding-side-special;
+    }
+}
+

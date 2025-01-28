@@ -1,0 +1,43 @@
+@use "../settings/dimensions";
+@use "../settings/fonts";
+
+//// HEADING STYLES
+
+h1, h2, h4  {
+  font-family: fonts.$ff-title;
+  font-weight: fonts.$fw-bold;
+
+  margin: 0;
+}
+
+h1 {
+  font-size: fonts.$fs-title-1;
+}
+
+h2 {
+  font-size: fonts.$fs-title-2;
+}
+
+h3 {
+  font-family: fonts.$ff-text;
+  font-size: fonts.$fs-title-3;
+  font-weight: fonts.$fw-regular;
+
+  letter-spacing: 5px;
+
+  margin: 0;
+}
+
+h4 {
+  font-size: fonts.$fs-title-4;
+}
+
+@media screen and (max-width: dimensions.$vw-horizontal-tablet) {
+   
+ h2 {
+    font-size: fonts.$fs-project-title;
+ }
+  
+}
+
+
