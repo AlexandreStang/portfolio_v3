@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout";
 import {graphql} from "gatsby";
 import {GatsbyImage, getImage} from "gatsby-plugin-image";
+import Seo from "../components/Seo";
 
 export default function ProjectDetails({data}) {
 
@@ -70,6 +71,10 @@ export default function ProjectDetails({data}) {
         </Layout>
     )
 }
+
+export const Head = ({data}) => (
+    <Seo />
+)
 
 export const query = graphql`
 query ProjectDetails($slug: String) {

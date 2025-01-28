@@ -10,9 +10,11 @@
 module.exports = {
   // Metadata to use throughout the website
   siteMetadata: {
+    title: "Alexandre Stang",
     author: "Alexandre Stang",
-    description: "Portfolio en ligne d'Alexandre Stang",
+    description: "Portfolio en ligne",
     role: "Concepteur technique UI/UX",
+    siteUrl: "https://alexandrestang.github.io/",
     contact: {
       email: "alexandre.stang.web@gmail.com",
       github: "https://github.com/AlexandreStang",

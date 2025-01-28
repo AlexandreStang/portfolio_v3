@@ -6,6 +6,7 @@ import {StaticImage} from "gatsby-plugin-image";
 import resume from "../pdf/stang_alexandre_cv.pdf"
 import ContactForm from "../components/ContactForm";
 import Tabs from "../components/Tabs";
+import Seo from "../components/Seo"
 
 export default function Home({data}) {
 
@@ -164,6 +165,10 @@ export default function Home({data}) {
         </Layout>
     )
 }
+
+export const Head = () => (
+    <Seo />
+)
 
 export const query = graphql`
 query HomeQuery {
