@@ -87,6 +87,14 @@
 
         padding-bottom: 100px;
     }
+
+    .content::after {
+        display: none;
+    }
+
+    .content::before {
+        display: none;
+    }
 }
 
 @media screen and (max-width: dimensions.$vw-mobile) {
