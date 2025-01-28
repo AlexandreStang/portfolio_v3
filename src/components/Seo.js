@@ -34,9 +34,13 @@ export default function Seo({ title, description }) {
             <meta name="twitter:image" content={seo.image}/>
 
             <link rel="apple-touch-icon" sizes="180x180" href={`${seo.siteUrl}/apple-touch-icon.png`}/>
+            <link rel="icon" type="image/png" sizes="96x96" href={`${seo.siteUrl}/favicon-96x96.png`}/>
             <link rel="icon" type="image/png" sizes="32x32" href={`${seo.siteUrl}/favicon-32x32.png`}/>
             <link rel="icon" type="image/png" sizes="16x16" href={`${seo.siteUrl}/favicon-16x16.png`}/>
+            <link rel="icon" type="image/svg+xml" href={`${seo.siteUrl}/favicon.svg`} />
+            <link rel="shortcut icon" href={`${seo.siteUrl}/favicon.ico`} />
             <link rel="manifest" href={`${seo.siteUrl}/site.webmanifest`}/>
+            <meta name="apple-mobile-web-app-title" content="Portfolio" />
         </>
     )
 }
