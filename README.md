@@ -12,10 +12,9 @@ This website is currently hosted on GitHub and is only available in French. [Cli
 
 ## ⚡ Technologies Used
 
-- HTML, SCSS & Javascript
-- React
-- Gatsby & GraphQL
-- Figma (for design)
+- **Frontend:** React, Javascript, SCSS, HTML
+- **Framework & Data:** Gatsby, GraphQL
+- **Design:** Figma
 
 ## 🛠 Set Up
 
