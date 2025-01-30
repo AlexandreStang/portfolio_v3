@@ -4,7 +4,7 @@
 > as markdown files, made between 2018 and 2025.
 
 
-![Home page](/public/og-image.png)
+![Home page](/static/og-image.png)
 
 ## 🚀 Live Demo
 
