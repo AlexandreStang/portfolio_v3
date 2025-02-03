@@ -8,7 +8,7 @@ tools:
   - Unity
   - C#
   - Adobe XD
-  - Photoshop
+  - Adobe Photoshop
 workType: stage
 startDate: 2023
 endDate: 2024

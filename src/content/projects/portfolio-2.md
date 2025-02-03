@@ -2,12 +2,13 @@
 title: portfolio 2.0
 slug: portfolio-2
 isActive: true
-featured: false
+featured: true
 category: web
 tools:
-  - HTML & SCSS
-  - JavaScript
-  - Photoshop
+  - Javascript
+  - SCSS
+  - HTML
+  - Adobe Photoshop
 workType: personnel
 startDate: 2019
 endDate: 2019

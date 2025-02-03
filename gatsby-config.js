@@ -12,9 +12,9 @@ module.exports = {
   siteMetadata: {
     title: "Alexandre Stang",
     author: "Alexandre Stang",
-    description: "Concepteur technique spécialisé dans la conception et l'intégration d'interfaces visuelles.",
-    role: "Concepteur technique UI/UX",
-    siteUrl: "https://alexandrestang.github.io/",
+    description: "Développeur front-end spécialisé dans la conception et l'intégration d'interfaces visuelles.",
+    role: "Développeur front-end",
+    siteUrl: "https://alexandrestang.com/",
     contact: {
       email: "alexandre.stang.web@gmail.com",
       github: "https://github.com/AlexandreStang",

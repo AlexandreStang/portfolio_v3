@@ -5,9 +5,10 @@ isActive: true
 featured: false
 category: web
 tools:
-  - HTML & SCSS
   - JavaScript
-  - Photoshop
+  - SCSS
+  - HTML
+  - Adobe Photoshop
 workType: personnel
 startDate: 2018
 endDate: 2018

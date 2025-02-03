@@ -5,10 +5,11 @@ isActive: true
 featured: true
 category: web
 tools:
-  - HTML & SCSS
-  - JavaScript
   - React
+  - Javascript
   - TheMovieDB API
+  - SCSS
+  - HTML
   - Netlify
   - Figma
 workType: personnel
@@ -19,8 +20,7 @@ link: https://randomovie-as.netlify.app/
 linkText: Visiter le site!
 thumb: ../../img/portfolio/randomovie.jpg
 featuredImg:
-  - ../../img/projects/randomovie/01.jpg
-  - ../../img/projects/randomovie/02.jpg
+  - ../../img/projects/randomovie/01.png
 ---
 
 Un projet personnel conçu dans le but de me familiariser davantage avec Javascript et la librairie React. Randomovie est

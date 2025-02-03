@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/content/projects/quintes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio/quintes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/quintes/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/randomovie/01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/colony.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/colony.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/convention-web.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/convention-web.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/doodle-war.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/doodle-war.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/ethereal_estate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/ethereal_estate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/festin.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/festin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/le-batifol.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/le-batifol.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/portfolio-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/portfolio-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/portfolio-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/portfolio-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/randomovie.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/randomovie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/portfolio/randomovie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/portfolio/randomovie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/projects/randomovie/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/projects/randomovie/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pdf/stang_alexandre_cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/pdf/stang_alexandre_cv.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2021_portfolio",
+    "last_opened_file_path": "C:/Users/Alexandre Stang/Documents/0_Projects/Web/2021_portfolio/src/pdf",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,15 +74,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\pdf" />
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\img\portfolio" />
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\img\projects\quintes" />
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\content\projects" />
       <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\portfolio\src\content\projects" />
-      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\portfolio\src" />
-      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\img\portfolio" />
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\img\projects\portfolio-2" />
+      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\src\img\projects\randomovie" />
       <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\static" />
       <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\portfolio\src" />
-      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\gatsby-starter-hello-world\node_modules" />
-      <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\gatsby-starter-hello-world" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,6 +127,8 @@
       <workItem from="1738271504581" duration="2269000" />
       <workItem from="1738276119278" duration="89000" />
       <workItem from="1738280010381" duration="79000" />
+      <workItem from="1738535181735" duration="1228000" />
+      <workItem from="1738602666253" duration="4511000" />
     </task>
     <servers />
   </component>

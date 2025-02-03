@@ -52,7 +52,7 @@ export default function Home({data}) {
                     <h1>stang</h1>
                 </span>
                         <span className="roles" data-aos="content-text" data-aos-delay="1000">
-                    <h3>concepteur technique UI/UX</h3>
+                    <h3>Développeur front-end</h3>
                 </span>
                     </div>
                     <div className="content">
@@ -68,14 +68,14 @@ export default function Home({data}) {
                         <div>
                             <h2 data-aos="content-text">à propos</h2>
                             <div className="about-description" data-aos="content-text">
-                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel diplômé d'un DEC-BAC en
-                                    création de jeux vidéo et d'un baccalauréat en informatique!</p>
-                                <p>Non seulement je maîtrise le design d'interface utilisteur (que ce soit avec <b>Figma ou
-                                    les logiciels de la suite Adobe</b>), mais je peux les transformer en sites web
-                                    fonctionnels grâce à mes
-                                    connaissances en <b>HTML5, CSS3 et JavaScript</b>! Mon expertise s'étend également au
-                                    développement de jeux vidéo avec <b>C#
-                                        et Unity</b>!</p>
+                                <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel diplômé d'un
+                                    baccalauréat en informatique
+                                    et d'un DEC-BAC en création de jeux vidéo!</p>
+                                <p>Non seulement je peux transformer des maquettes en sites web fonctionnels grâce à
+                                    mes connaissances en <b>React, Javascript et CSS</b>, mais je maîtrise également le design
+                                    d'interface utilisateur, que ce soit avec <b>Figma ou les logiciels de la suite Adobe</b>!
+                                    Mon expertise s'étend aussi à la programmation en <b>Python et Java</b> pour des applications variées
+                                    ainsi qu'au développement de jeux vidéo avec <b>C# et Unity</b>!</p>
                                 <p>Je suis à la fois une personne perfectionniste et travailleuse, toujours déterminée à
                                     m'améliorer et à apprendre de nouvelles choses avec chaque nouveau projet!</p>
                             </div>
@@ -91,7 +91,7 @@ export default function Home({data}) {
                             </div>
 
                             <div data-aos="content-text">
-                                <a href={resume} className="btn" target="_blank" rel="noreferrer" >télécharger mon CV</a>
+                                <a href={resume} className="btn" target="_blank" rel="noreferrer">télécharger mon CV</a>
                             </div>
                         </div>
 
@@ -167,7 +167,7 @@ export default function Home({data}) {
 }
 
 export const Head = () => (
-    <Seo />
+    <Seo/>
 )
 
 export const query = graphql`

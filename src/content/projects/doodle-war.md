@@ -7,8 +7,8 @@ category: jeux vidéo
 tools:
   - Unity
   - C#
-  - Photoshop
-  - Illustrator
+  - Adobe Photoshop
+  - Adobe Illustrator
 workType: scolaire, concours
 startDate: 2019
 endDate: 2020

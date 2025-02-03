@@ -2,7 +2,7 @@
 title: ethereal estate
 slug: ethereal_estate
 isActive: true
-featured: true
+featured: false
 category: jeux vidéo
 tools:
   - Unreal Engine

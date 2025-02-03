@@ -5,12 +5,13 @@ isActive: true
 featured: true
 category: web
 tools:
-  - HTML & SCSS
-  - JavaScript
   - PHP
   - Wordpress
-  - Photoshop
-  - Illustrator
+  - Javascript
+  - SCSS
+  - HTML
+  - Adobe Photoshop
+  - Adobe Illustrator
 workType: personnel
 startDate: 2019
 endDate: 2019

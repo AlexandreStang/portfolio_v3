@@ -5,11 +5,12 @@ isActive: true
 featured: false
 category: web
 tools:
-  - HTML & SCSS
-  - JavaScript
   - PHP
   - Wordpress
-  - Photoshop
+  - Javascript
+  - SCSS
+  - HTML
+  - Adobe Photoshop
 workType: scolaire
 startDate: 2018
 endDate: 2018
