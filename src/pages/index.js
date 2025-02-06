@@ -87,6 +87,9 @@ export default function Home({data}) {
                                     <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span>
                                         <a href={contact.linkedIn}
                                            className="text-link">/alexandrestang</a></li>
+                                    <li><span className="inline-icon"><i className="fa-brands fa-github"></i></span>
+                                        <a href={contact.github}
+                                           className="text-link">/alexandrestang</a></li>
                                 </ul>
                             </div>
 
@@ -175,9 +178,9 @@ query HomeQuery {
   metadata: site {
     siteMetadata {
       contact {
-        behance
         email
         linkedIn
+        github
       }
     }
   }
