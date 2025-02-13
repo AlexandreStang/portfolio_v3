@@ -1,14 +1,15 @@
 # Portfolio 3.0
 
-> The third iteration of my online portfolio, built with Gatsby. The site features various projects, stored
-> as markdown files, made between 2018 and 2025.
+> The third iteration of my online portfolio, built with Gatsby. The site features various projects made between 2018
+> and 2025, all stored as markdown files and fetched with GraphQL.
 
 
 ![Home page](/static/og-image.png)
 
 ## 🚀 Live Demo
 
-This website is currently hosted on GitHub and is only available in French. [Click here to visit the site!](https://alexandrestang.github.io/)
+This website is currently hosted on GitHub and is only available in
+French. [Click here to visit the site!](https://alexandrestang.github.io/)
 
 ## ⚡ Technologies Used
 
