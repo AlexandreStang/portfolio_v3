@@ -1,4 +1,5 @@
 @use "../settings/colors";
+@use "../settings/dimensions";
 
 [data-aos="body"] {
     opacity: 0;
@@ -91,4 +92,22 @@
         background-position: left bottom;
     }
 }
+
+@media screen and (max-width: dimensions.$vw-horizontal-tablet) {
+
+    [data-aos="content-sidebar"] {
+        opacity: 0;
+        transition-property: opacity, transform;
+
+        transform: translateX(-20px);
+
+        &.aos-animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+}
+
+
 

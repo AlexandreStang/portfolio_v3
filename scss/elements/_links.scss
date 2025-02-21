@@ -24,8 +24,8 @@ a:hover {
   transition: global.$global-transition;
 }
 
-.text-link.active {
-  font-weight: fonts.$fw-bold;
+.text-link.active:after {
+  width: 100%;
 }
 
 .text-link:after {

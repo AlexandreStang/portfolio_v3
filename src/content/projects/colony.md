@@ -12,8 +12,8 @@ workType: scolaire, personnel
 startDate: 2020
 endDate: 2020
 fullDate: hiver - printemps 2020
-link:
-linkText:
+link: https://www.youtube.com/watch?v=nL1w9GVuOaM
+linkText: Voir le jeu en action!
 thumb: ../../img/portfolio/colony.jpg
 featuredImg:
   - ../../img/projects/colony/01.jpg

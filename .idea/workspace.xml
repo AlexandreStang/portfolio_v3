@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/animations/_data-aos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/animations/_data-aos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/colony.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/colony.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +119,8 @@
       <workItem from="1738782010765" duration="898000" />
       <workItem from="1738818859976" duration="221000" />
       <workItem from="1739484249205" duration="1194000" />
+      <workItem from="1739914158894" duration="2232000" />
+      <workItem from="1740154690198" duration="4701000" />
     </task>
     <servers />
   </component>

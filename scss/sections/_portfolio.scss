@@ -13,9 +13,8 @@
     width: dimensions.$w-col2;
     left: dimensions.$w-col5;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
     margin-top: 70px;
 }
@@ -28,9 +27,6 @@
 
 .project-slot {
     position: relative;
-
-    width: 50%;
-    //margin-top: 0.7vw;
 
     color: colors.$dark-grey;
 
@@ -87,37 +83,38 @@
 }
 
 @media screen and (max-width: dimensions.$vw-small-desktop) {
-    .project-list.desktop {
-        width: dimensions.$w-col3;
-    }
 
     .project-name {
         font-size: fonts.$fs-title-4;
     }
 }
 
+@media screen and (max-width: dimensions.$vw-horizontal-tablet) {
+
+    .project-list.desktop {
+        width: dimensions.$w-col3;
+    }
+}
+
 @media screen and (max-width: dimensions.$vw-vertical-tablet) {
+
     .project-list.desktop {
         display: none;
     }
 
     .project-list.mobile {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .project-name {
-        font-size: fonts.$fs-title-3;
+        font-size: fonts.$fs-title-4;
     }
 }
 
 @media screen and (max-width: dimensions.$vw-mobile) {
-    //.project-slot {
-    //    width: 100%;
-    //}
-
-    .project-name {
-        font-size: fonts.$fs-title-4;
+    .project-list.mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

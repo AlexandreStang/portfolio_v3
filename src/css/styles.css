@@ -556,8 +556,8 @@ a:hover {
   transition: all 200ms ease-in-out;
 }
 
-.text-link.active {
-  font-weight: 700;
+.text-link.active:after {
+  width: 100%;
 }
 
 .text-link:after {
@@ -1050,9 +1050,8 @@ p {
   position: absolute;
   width: 25vw;
   left: 62.5vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 70px;
 }
 
@@ -1063,7 +1062,6 @@ p {
 
 .project-slot {
   position: relative;
-  width: 50%;
   color: #19181C;
   font-size: 0;
 }
@@ -1110,11 +1108,13 @@ p {
 }
 
 @media screen and (max-width: 1440px) {
-  .project-list.desktop {
-    width: 37.5vw;
-  }
   .project-name {
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .project-list.desktop {
+    width: 37.5vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1122,17 +1122,17 @@ p {
     display: none;
   }
   .project-list.mobile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
   .project-name {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 480px) {
-  .project-name {
-    font-size: 1.5rem;
+  .project-list.mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .contact input {
@@ -1189,7 +1189,7 @@ p {
   align-items: center;
   flex-direction: column;
 }
-.project-details .img-container > * {
+.project-details .img-container > div {
   width: 95%;
   max-width: 1200px;
   margin-bottom: 20px;
@@ -1245,6 +1245,7 @@ p {
 @media screen and (max-width: 768px) {
   .project-details .img-container > div {
     width: 100%;
+    margin-bottom: 10px;
   }
   .project-details img {
     width: 100%;
@@ -1329,6 +1330,18 @@ p {
 }
 [data-aos=input].aos-animate {
   background-position: left bottom;
+}
+
+@media screen and (max-width: 1024px) {
+  [data-aos=content-sidebar] {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transform: translateX(-20px);
+  }
+  [data-aos=content-sidebar].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
