@@ -12,3 +12,15 @@ export const onInitialClientRender = () => {
     });
 
 };
+
+export const onRouteUpdate = ({ location }) => {
+    if (typeof window !== 'undefined' && location && !location.hash) {
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 0);
+    }
+};
+
+export const shouldUpdateScroll = ({ location }) => {
+    return !(location && location.hash);
+};
