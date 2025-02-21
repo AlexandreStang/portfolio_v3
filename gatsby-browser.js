@@ -10,4 +10,5 @@ export const onInitialClientRender = () => {
         once: true,
         duration: 1200,
     });
+
 };
