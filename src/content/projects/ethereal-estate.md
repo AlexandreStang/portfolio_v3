@@ -1,6 +1,6 @@
 ---
 title: ethereal estate
-slug: ethereal_estate
+slug: ethereal-estate
 isActive: true
 featured: false
 category: jeux vidéo
