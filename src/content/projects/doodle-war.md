@@ -31,4 +31,4 @@ autres dans une arène projetée au mur. En tant que designer visuel, j'ai conç
 En plus de moi, l'équipe derrière ce projet comprenait Olivier Coupal (VFX), Laurent Duthoy (intégration), Alexandra
 Lamarre (programmation IA), Nathan Lamothe (programmation), Andric Roy-Doyon (programmation) et Vincent Thoer-Fabre (
 conception système). Le projet ayant gagné le concours, ce dernier a été présenté lors de la Nuit Blanche 2020 le 29
-février, où des centaines de personnes ont eu la chance de l'essayer.
+février, où des centaines de personnes ont eu la chance d'essayer le jeu.

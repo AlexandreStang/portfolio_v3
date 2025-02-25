@@ -3,7 +3,7 @@ import {graphql} from 'gatsby'
 import Layout from "../components/Layout";
 import ProjectPreview from "../components/ProjectPreview"
 import {StaticImage} from "gatsby-plugin-image";
-import resume from "../pdf/stang_alexandre_cv.pdf"
+import resume from "../pdf/alexandre_stang_cv.pdf"
 import ContactForm from "../components/ContactForm";
 import Tabs from "../components/Tabs";
 import Seo from "../components/Seo"
