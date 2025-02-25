@@ -1,7 +1,7 @@
 ---
 title: la tim d'édouard
 slug: tim-edouard
-isActive: false
+isActive: true
 featured: false
 category: design UI
 tools:
@@ -19,9 +19,14 @@ featuredImg:
 
 ---
 
-Réalisé dans le cadre du cours de Design d'Expérience au Cégep Édouard-Montpetit au printemps 2018, la Tim d'Édouard est
-la
-refonte du site de la Technique d'Intégration Multimédia du collège éponyme.
+Conçu au printemps 2018 dans le cadre du cours de Design d'Expérience au Cégep Édouard-Montpetit, la Tim d’Édouard est une refonte du site web
+de la Technique d’Intégration Multimédia du cégep. Ce projet a été réalisé dans le cadre d’un concours où le design
+gagnant avait l’opportunité de devenir la nouvelle identité visuelle du site officiel. L’objectif était de proposer une
+interface plus moderne, intuitive et attrayante, reflétant au mieux l’esprit du programme et facilitant la navigation
+pour les futurs étudiants et visiteurs.
 
-Trois versions ont été conçues pour s’adapter aux différentes tailles d’écran (bureau, tablette, mobile), le tout
-réalisé avec Adobe Photoshop.
+La maquette élaborée comprend cinq pages distinctes, chacune déclinée en deux résolutions pour assurer une expérience
+fluide sur mobile et ordinateur. Un soin particulier a été apporté à l’ergonomie, à la hiérarchie visuelle et à
+l’accessibilité des contenus, afin d’offrir une navigation claire et engageante. L’ensemble du projet a été conçu avec
+Adobe Photoshop, mettant l’accent sur une direction artistique soignée et une mise en page optimisée pour différents
+formats d’écran.

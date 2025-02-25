@@ -1,7 +1,7 @@
 ---
 title: motion spotlight
 slug: motions-spotlight
-isActive: false
+isActive: true
 featured: false
 category: design UI
 tools:
@@ -27,8 +27,11 @@ featuredImg:
 ---
 
 Réalisé à l’automne 2017 dans le cadre du cours de Design Interactif au Cégep Édouard-Montpetit, Motion Spotlight est un prototype
-d’application de curation pour tablette, consacré aux courts métrages d’animation disponibles en ligne.
+d’application de curation conçu pour tablette et dédié aux courts métrages d’animation disponibles en ligne. L'objectif
+était d’offrir une plateforme intuitive et visuellement attrayante, facilitant la découverte et
+l’exploration de contenus animés de qualité. L’interface a été pensée pour mettre en valeur les œuvres sélectionnées
+tout en garantissant une navigation fluide et agréable.
 
-Il comprend un peu moins de dix écrans, tous conçus
-avec Adobe Photoshop. Par ailleurs, le logo a été réalisé avec Adobe Illustrator, et certaines animations ont été créées
-à l’aide d’Adobe Animate. Le prototype était auparavant accessible en ligne sur l'application MarvelApp. 
+Le prototype comprend près de dix écrans, tous conçus avec Adobe Photoshop, tandis que le logo a été créé avec Adobe
+Illustrator. Quelques animations ont également été réalisées à l’aide de Adobe Animate, ajoutant une touche de dynamisme à l’expérience utilisateur. 
+Motion Spotlight était auparavant accessible en ligne via l’application MarvelApp, permettant une visualisation interactive du projet.

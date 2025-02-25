@@ -15,7 +15,7 @@ startDate: 2024
 endDate: 2024
 fullDate: hiver 2024
 link: https://alexandrestang.github.io/2024_quintes/
-linkText: Voir le site!
+linkText: Visiter le site!
 thumb: ../../img/portfolio/quintes.jpg
 featuredImg:
   - ../../img/projects/quintes/01.png
@@ -26,5 +26,5 @@ quintes. Le site propose un questionnaire à choix multiples où les questions s
 quelques types de questions, permettant aux utilisateurs de mettre à l'épreuve leurs capacités de mémorisation et de
 suivre leurs progrès.
 
-Toutes les fonctionnalités du site Web sont réalisées via jQuery et Javascript, Bootstrap s'occupant de la plupart des éléments visuels du site Web.
+Toutes les fonctionnalités du site Web ont été réalisées via jQuery et Javascript, Bootstrap s'occupant de la plupart des éléments visuels du site Web.
 Le site est entièrement réactif pour toutes les résolutions d'écran.

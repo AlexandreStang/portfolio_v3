@@ -1,7 +1,7 @@
 ---
 title: teamosa
 slug: teamosa
-isActive: false
+isActive: true
 featured: false
 category: design UI
 tools:
@@ -18,8 +18,13 @@ featuredImg:
 
 ---
 
-Réalisé à l’automne 2017 dans le cadre du cours de Design Interactif au Cégep Édouard-Montpetit, Teamosa est la refonte du site web one-pager
-du produit éponyme. L’ensemble des informations et des visuels provient de sa campagne Kickstarter.
+Réalisé à l’automne 2017 dans le cadre du cours de Design Interactif au Cégep Édouard-Montpetit Teamosa est une refonte du site web one-pager
+du produit éponyme. L’objectif du projet était de concevoir une vitrine numérique
+plus complète et attrayante pour un produit en phase de financement, en améliorant son accessibilité et son impact
+visuel. L’ensemble des informations et des visuels a été sélectionné à partir du matériel promotionnel
+disponible sur Kickstater, afin d’offrir une mise en page plus claire et engageante qui valorise les atouts du produit.
 
-Trois versions ont été conçues pour s’adapter aux différentes tailles d’écran (bureau, tablette, mobile), le tout
+Pour garantir une expérience utilisateur optimale sur tous les supports, trois versions du site ont été conçues et
+adaptées aux différentes tailles d’écran : bureau, tablette et mobile. Chaque déclinaison a été pensée pour conserver
+une navigation fluide et une hiérarchie visuelle efficace, quel que soit l’appareil utilisé. L’ensemble du projet a été
 réalisé avec Adobe Photoshop.

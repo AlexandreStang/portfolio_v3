@@ -196,7 +196,7 @@ query HomeQuery {
         slug
         thumb {
           childImageSharp {
-            gatsbyImageData(width: 400, placeholder: BLURRED, formats: [AUTO, WEBP])
+            gatsbyImageData(width: 400, placeholder: BLURRED, formats: [AUTO, WEBP], quality: 100)
           }
         }
         category

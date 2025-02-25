@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/content/projects/rafale.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/project-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/project-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/motion-spotlight.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/motion-spotlight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/quintes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/quintes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/teamosa.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/teamosa.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/projects/tim-edouard.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/tim-edouard.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/portfolio/teamosa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/portfolio/teamosa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +120,9 @@
       <workItem from="1738818859976" duration="221000" />
       <workItem from="1739484249205" duration="1194000" />
       <workItem from="1739914158894" duration="2232000" />
-      <workItem from="1740154690198" duration="11927000" />
+      <workItem from="1740154690198" duration="13175000" />
+      <workItem from="1740174913390" duration="614000" />
+      <workItem from="1740438475704" duration="6538000" />
     </task>
     <servers />
   </component>
