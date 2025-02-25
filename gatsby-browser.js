@@ -21,6 +21,6 @@ export const onRouteUpdate = ({ location }) => {
     }
 };
 
-export const shouldUpdateScroll = ({ location }) => {
-    return !(location && location.hash);
-};
+// export const shouldUpdateScroll = ({ location }) => {
+//     return location && location.hash;
+// };
