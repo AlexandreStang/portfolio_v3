@@ -1045,6 +1045,9 @@ p {
 .portfolio-description {
   margin-bottom: 40px;
 }
+.portfolio-description span {
+  margin-bottom: 10px;
+}
 
 .project-list.desktop {
   position: absolute;
