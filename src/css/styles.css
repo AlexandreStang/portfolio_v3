@@ -1259,6 +1259,13 @@ p {
     width: 100vw;
   }
 }
+section.page404 {
+  height: 100vh;
+}
+section.page404 p {
+  margin-bottom: 20px;
+}
+
 [data-aos=body] {
   opacity: 0;
   transition-property: opacity, transform;

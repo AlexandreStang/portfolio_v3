@@ -13,7 +13,7 @@ French. [Click here to visit the site!](https://alexandrestang.github.io/)
 
 ## ⚡ Technologies Used
 
-- **Frontend:** React, Javascript, SCSS, HTML
+- **Frontend:** React, Javascript, SCSS
 - **Framework & Data:** Gatsby, GraphQL
 - **Design:** Figma
 

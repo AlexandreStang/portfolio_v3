@@ -13,9 +13,9 @@ tools:
   - Adobe Photoshop
   - Adobe Illustrator
 workType: personnel
-startDate: 2019
-endDate: 2019
-fullDate: hiver 2019
+startDate: 2018
+endDate: 2018
+fullDate: hiver 2018
 link: https://alexandrestang.github.io/2018_convention_web/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/convention-web.jpg

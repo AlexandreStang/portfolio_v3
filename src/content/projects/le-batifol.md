@@ -2,7 +2,7 @@
 title: le batifol
 slug: le-batifol
 isActive: true
-featured: false
+featured: true
 category: web
 tools:
   - PHP
