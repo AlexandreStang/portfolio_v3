@@ -2,7 +2,7 @@
 title: festin
 slug: festin
 isActive: true
-featured: true
+featured: false
 category: jeux vidéo
 tools:
   - Unity

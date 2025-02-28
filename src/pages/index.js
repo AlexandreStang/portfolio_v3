@@ -186,7 +186,7 @@ query HomeQuery {
   }
   projects: allMarkdownRemark(
     filter: {frontmatter: {isActive: {eq: true}}}
-    sort: {frontmatter: {startDate: DESC}}
+    sort: {frontmatter: {endDate: DESC}}
   ) {
     nodes {
       frontmatter {
