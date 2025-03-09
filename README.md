@@ -8,8 +8,8 @@
 
 ## 🚀 Live Demo
 
-This website is currently hosted on GitHub and is only available in
-French. [Click here to visit the site!](https://alexandrestang.github.io/)
+This website is currently hosted on Netlify and is only available in
+French. [Click here to visit the site!](https://alexandrestang.com/)
 
 ## ⚡ Technologies Used
 

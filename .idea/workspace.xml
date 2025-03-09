@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a42826-e645-4894-a7eb-139d6d40adb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/festin.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/festin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/quintes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/projects/quintes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +68,6 @@
       <recent name="C:\Users\Alexandre Stang\Documents\0_Projects\Web\2021_portfolio\portfolio\src" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +112,8 @@
       <workItem from="1740438475704" duration="9293000" />
       <workItem from="1740491691228" duration="1189000" />
       <workItem from="1740682791300" duration="3319000" />
-      <workItem from="1740761453477" duration="47000" />
+      <workItem from="1740761453477" duration="976000" />
+      <workItem from="1741557067593" duration="35000" />
     </task>
     <servers />
   </component>
