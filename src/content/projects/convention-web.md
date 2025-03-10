@@ -16,7 +16,7 @@ workType: personnel
 startDate: 2018
 endDate: 2018
 fullDate: hiver 2018
-link: https://alexandrestang.github.io/2018_convention_web/
+link: https://alexandrestang.github.io/convention_web/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/convention-web.jpg
 featuredImg:

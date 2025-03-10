@@ -14,7 +14,7 @@ workType: scolaire
 startDate: 2024
 endDate: 2024
 fullDate: hiver 2024
-link: https://alexandrestang.github.io/2024_quintes/
+link: https://alexandrestang.github.io/quintes/
 linkText: Visiter le site!
 thumb: ../../img/portfolio/quintes.jpg
 featuredImg:

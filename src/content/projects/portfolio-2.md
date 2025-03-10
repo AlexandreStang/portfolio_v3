@@ -13,7 +13,7 @@ workType: personnel
 startDate: 2019
 endDate: 2019
 fullDate: hiver 2019
-link: https://alexandrestang.github.io/2019_portfolio/
+link: https://alexandrestang.github.io/portfolio_v2/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/portfolio-2.jpg
 featuredImg:

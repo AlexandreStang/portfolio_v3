@@ -15,7 +15,7 @@ workType: scolaire
 startDate: 2018
 endDate: 2018
 fullDate: automne 2018
-link: https://alexandrestang.github.io/2018_lebatifol/
+link: https://alexandrestang.github.io/batifol/
 linkText: Voir la version statique!
 thumb: ../../img/portfolio/le-batifol.jpg
 featuredImg:
