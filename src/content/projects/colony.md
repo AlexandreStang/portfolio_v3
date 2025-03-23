@@ -2,7 +2,7 @@
 title: colony
 slug: colony
 isActive: true
-featured: false
+featured: true
 category: jeux vidéo
 tools:
   - C#
