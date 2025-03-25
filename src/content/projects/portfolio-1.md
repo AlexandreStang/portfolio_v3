@@ -1,6 +1,6 @@
 ---
-title: portfolio 1.0
-slug: portfolio-1
+title: portfolio (v1)
+slug: portfolio-v1
 isActive: true
 featured: false
 category: web

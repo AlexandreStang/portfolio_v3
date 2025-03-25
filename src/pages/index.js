@@ -52,7 +52,7 @@ export default function Home({data}) {
                     <h1>stang</h1>
                 </span>
                         <span className="roles" data-aos="content-text" data-aos-delay="1000">
-                    <h3>Développeur front-end</h3>
+                    <h3>Développeur front-end & Concepteur UI/UX</h3>
                 </span>
                     </div>
                     <div className="content">
@@ -117,7 +117,7 @@ export default function Home({data}) {
                                 <p data-aos="content-text">Au fil des années, j'ai réalisé de nombreux projets sous
                                     différents
                                     rôles, que ce soit en tant que
-                                    designer UI, intégrateur web ou même programmeur! Voici donc un bref aperçu de mes
+                                    designer UI/UX, intégrateur web ou développeur! Voici donc un bref aperçu de mes
                                     meilleurs travaux.
                                 </p>
                             </div>
