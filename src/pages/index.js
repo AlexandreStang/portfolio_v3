@@ -52,7 +52,7 @@ export default function Home({data}) {
                     <h1>stang</h1>
                 </span>
                         <span className="roles" data-aos="content-text" data-aos-delay="1000">
-                    <h3>Développeur front-end & Concepteur UI/UX</h3>
+                    <h3>Développeur front-end</h3>
                 </span>
                     </div>
                     <div className="content">
