@@ -1,8 +1,8 @@
 ---
 title: quiz sur le cycle des quintes
 slug: quintes
-isActive: true
-featured: true
+isActive: false
+featured: false
 category: web
 tools:
   - jQuery

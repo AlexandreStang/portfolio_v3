@@ -2,7 +2,7 @@
 title: portfolio (v1)
 slug: portfolio-v1
 isActive: true
-featured: false
+featured: true
 category: web
 tools:
   - JavaScript
