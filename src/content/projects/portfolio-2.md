@@ -5,7 +5,7 @@ isActive: true
 featured: false
 category: web
 tools:
-  - Javascript
+  - JavaScript
   - SCSS
   - HTML
   - Adobe Photoshop

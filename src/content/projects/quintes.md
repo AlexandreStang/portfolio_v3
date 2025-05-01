@@ -6,7 +6,7 @@ featured: false
 category: web
 tools:
   - jQuery
-  - Javascript
+  - JavaScript
   - Bootstrap
   - CSS
   - HTML

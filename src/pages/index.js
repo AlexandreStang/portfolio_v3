@@ -69,13 +69,11 @@ export default function Home({data}) {
                             <h2 data-aos="content-text">à propos</h2>
                             <div className="about-description" data-aos="content-text">
                                 <p>Salut! Je suis Alexandre, un passionné de multimédia et d'art visuel diplômé d'un
-                                    baccalauréat en informatique
-                                    et d'un DEC-BAC en création de jeux vidéo!</p>
+                                    baccalauréat en informatique et d'un DEC en intégration web!</p>
                                 <p>Non seulement je peux transformer des maquettes en sites web fonctionnels grâce à
-                                    mes connaissances en <b>React, Javascript et CSS</b>, mais je maîtrise également le design
-                                    d'interface utilisateur, que ce soit avec <b>Figma ou les logiciels de la suite Adobe</b>!
-                                    Mon expertise s'étend aussi à la programmation en <b>Python et Java</b> pour des applications variées
-                                    ainsi qu'au développement de jeux vidéo avec <b>C# et Unity</b>!</p>
+                                    mes connaissances en <b>React, JavaScript/TypeScript et CSS/SCSS</b>, mais je maîtrise également le design
+                                    d'interface utilisateur, que ce soit avec <b>Figma</b> ou les logiciels de la <b>suite Adobe</b>!
+                                    Mon expertise s'étend aussi au développement de jeux vidéo avec <b>C# et Unity</b>.</p>
                                 <p>Je suis à la fois une personne perfectionniste et travailleuse, toujours déterminée à
                                     m'améliorer et à apprendre de nouvelles choses avec chaque nouveau projet!</p>
                             </div>
@@ -86,10 +84,10 @@ export default function Home({data}) {
                                     </li>
                                     <li><span className="inline-icon"><i className="fab fa-linkedin"></i></span>
                                         <a href={contact.linkedIn}
-                                           className="text-link">/alexandrestang</a></li>
+                                           className="text-link">/alexandre-stang</a></li>
                                     <li><span className="inline-icon"><i className="fa-brands fa-github"></i></span>
                                         <a href={contact.github}
-                                           className="text-link">/alexandrestang</a></li>
+                                           className="text-link">/AlexandreStang</a></li>
                                 </ul>
                             </div>
 

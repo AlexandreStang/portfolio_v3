@@ -6,7 +6,7 @@ featured: true
 category: web
 tools:
   - React
-  - Javascript
+  - JavaScript
   - TheMovieDB API
   - SCSS
   - HTML

@@ -7,7 +7,7 @@ category: web
 tools:
   - PHP
   - Wordpress
-  - Javascript
+  - JavaScript
   - SCSS
   - HTML
   - Adobe Photoshop
